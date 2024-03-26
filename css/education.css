@@ -1,0 +1,396 @@
+.sidebar {
+  position: relative;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #0b0c10;
+  color: #c5c6c7;
+}
+
+/* .sidebar.active {
+  width: 100%;
+}
+
+.sidebar #btnshrink {
+  font-size: 3rem;
+  cursor: pointer;
+} */
+
+/* //////////////////////// */
+/* TOP SIDEBAR */
+/* //////////////////////// */
+.sidebar-top {
+  display: flex;
+  gap: 3rem;
+  align-items: center;
+  letter-spacing: 0.15rem;
+  font-size: 2rem;
+  font-weight: 600;
+  font-family: "IBM Plex Sans", "Poppins", sans-serif;
+  padding: 1rem;
+}
+
+.sidebar-expand {
+  margin-left: auto;
+}
+
+.img-profile--sidebar {
+  width: 5.2rem;
+}
+
+/* //////////////////////// */
+/* ACCORDIAN COURSES */
+/* //////////////////////// */
+
+/* #45A29E - Writing
+#37827e	-- Writing - secondary
+#66FCF1 - Writhing - Text Blue
+#85fdf4 - Button - Bright Blue Hover
+#D7F7FF - Logo Light Blue
+#95b2e8 - Logo Medium Blue 
+#0b0C10 - Header-Footer-Sidebar Main Background
+#1F2833 - Grey Secondary
+#C5C6C7 - Cream Text?
+  */
+
+/* top button tag */
+.accordion {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 1.4rem;
+  border: none;
+  background-color: #0b0c10;
+  color: #45a29e;
+  cursor: pointer;
+  padding: 1.8rem;
+  width: 100%;
+  border-bottom: 0.1rem solid #c5c6c7;
+  border-bottom-right-radius: 1rem;
+  text-align: left;
+  outline: none;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.4rem;
+  transition: 0.4s;
+}
+
+/* img tag inline with label */
+.uni-logo {
+  width: 5.2rem;
+}
+
+.uni-logo-white {
+  background-color: white;
+  padding: 0.5rem;
+}
+
+.uni-asu {
+  height: 3.5rem;
+}
+
+.uni-mary {
+  height: 2rem;
+}
+
+.accordian-arrow {
+  margin-left: auto;
+  color: #66fcf1;
+}
+
+/* li tag */
+/* .uni-item {
+
+  list-style: none;
+  width: 100%;
+  margin-bottom: 1.2rem;
+  background: #6c9290;
+  padding: 1rem;
+  border-bottom-right-radius: 1rem;
+  justify-content: center;
+} */
+
+.active {
+  color: #95b2e8;
+}
+
+.accordion:hover {
+  color: #66fcf1;
+}
+
+.panel {
+  padding: 0 1.8rem;
+  display: none;
+  overflow: hidden;
+}
+
+.panel-active {
+  max-height: max-content;
+}
+
+/* label tag */
+.uni-item--label {
+  padding: 1rem;
+  font-size: 1.4rem;
+  font-weight: 500;
+  cursor: pointer;
+  color: #3c913f;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* div tag for individual courses */
+.uni-course-list {
+  display: flex;
+  padding-top: 1rem;
+  gap: 1rem;
+  /* padding: 1rem;
+  line-height: 1.6rem;
+  max-height: 0;
+  overflow: hidden;
+  transition: 3ms; */
+}
+
+/* div tag for individual courses */
+.uni-course-list-hide {
+  display: flex;
+  padding-top: 1rem;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+}
+
+.uni-course-list:hover::after,
+.uni-course-list:hover::before {
+  content: attr(data-tooltip);
+  position: absolute;
+  right: -15.25rem;
+  height: max-content;
+  width: 37rem;
+  background: #0b0c10;
+  border: solid 0.05rem #c5c6c7;
+
+  color: #c5c6c7;
+  letter-spacing: 0.5px;
+  padding: 1.2rem;
+  transform: translateX(70%) translateY(-1%);
+  opacity: 99%;
+  transition: 50s transform;
+}
+
+/* p tag for individual courses */
+.uni-course {
+}
+
+/* p tag for individual course title */
+.uni-course-title {
+  display: block;
+  text-decoration: none;
+}
+
+/* p tag for individual course title */
+.uni-sh {
+  margin-left: auto;
+}
+
+.uni-timeline {
+  font-style: oblique;
+  font-size: 1.1rem;
+}
+
+.uni-2deg {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.hidden-box {
+  grid-column: 2;
+  display: none;
+}
+
+.hidden-box p {
+  line-height: 1.6;
+  margin-bottom: 24px;
+}
+
+/* flex box application trick for bullets for spacing */
+.hidden-box ul {
+  color: #868e96;
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+/* OPEN STATE BOX  */
+
+.open {
+  border-top: 4px solid #087f08;
+}
+
+/* .open .hidden-box {
+  display: block;
+} */
+
+.uni-box {
+  /* grid-column: 2;
+  display: none;
+  */
+}
+
+.uni-box p {
+  /* line-height: 1.6;
+  margin-bottom: 24px; */
+}
+
+/* flex box application trick for bullets for spacing */
+.uni-box ul {
+  /* color: #868e96;
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px; */
+}
+
+/* RIGHT SIDE SECTION */
+
+.ed-header {
+}
+
+.section-header {
+  margin-bottom: 2.8rem;
+}
+
+.ed-about {
+  display: grid;
+  grid-template-columns: 5fr 4fr;
+  gap: 2rem;
+  /* justify-self: center; */
+  /* justify-content: center; */
+}
+
+.ed-about-p {
+  font-size: 1.4rem;
+}
+
+.ed-p {
+  font-size: 1.2rem;
+  text-align: justify;
+}
+
+.ed-jumplink {
+  /* display: none; */
+  /* justify-content: center; */
+  /* justify-items: center; */
+  /* justify-self: center; */
+  /* align-self: center; */
+}
+
+.jump-header {
+  margin-bottom: 1.2rem;
+  justify-self: center;
+}
+.jumplink {
+  text-decoration: none;
+}
+
+.jump-ed-p {
+  font-size: 1.2rem;
+  letter-spacing: 0.15rem;
+}
+
+.jumplink:link,
+.jumplink:visited,
+.jumplink:active {
+  text-decoration: none;
+  color: inherit;
+}
+
+.jumplink:hover {
+  color: #66fcf1;
+}
+
+.capstone {
+  margin-top: 6.4rem;
+  /* padding-bottom: 10rem; */
+  /* margin-bottom: 6.4rem; */
+}
+
+.ed-header {
+  margin-bottom: 1rem;
+}
+
+.ed-subhead {
+  margin-bottom: 0.8rem;
+}
+.ed-text {
+  margin-top: 0.8rem;
+  margin-bottom: 0.4rem;
+}
+
+.flex {
+  display: flex;
+  /* flex-direction: column; */
+  flex-wrap: wrap;
+  gap: 1.2rem;
+}
+
+.flex.center {
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+}
+
+.flex.mt2 {
+  margin-top: 2rem;
+}
+
+.img-center {
+  justify-content: center;
+  margin-top: 1.8rem;
+}
+
+.img-ed {
+  width: 25rem;
+  height: 15rem;
+  /* margin-top: 0.8rem; */
+}
+.img-ed2 {
+  width: 25rem;
+  height: 20rem;
+  /* margin-top: 0.8rem; */
+}
+
+.img-ed3 {
+  background-color: white;
+}
+
+.img-ed4 {
+  width: 20%;
+  height: 20%;
+}
+
+.img-ed5 {
+  width: 17%;
+  height: 16%;
+}
+
+.gallery-item {
+  overflow: hidden;
+  align-self: center;
+  /* flex-grow: 1; */
+  align-content: stretch;
+}
+
+.gallery-item img {
+  display: block;
+  width: 100%;
+  transition: all 0.4s;
+}
+
+.gallery-item img:hover {
+  transform: scale(1.2);
+}

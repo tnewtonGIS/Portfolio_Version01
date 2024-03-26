@@ -1,0 +1,23 @@
+.blog-date {
+  color: #c5c6c7;
+  font-size: 1rem;
+  margin-left: 0.25rem;
+  font-style: italic;
+}
+
+.blog-title {
+  /* tbd */
+}
+
+.blog-p {
+  margin-top: 1rem;
+  font-size: 1.4rem;
+}
+
+.view-100 {
+  height: 100vh;
+}
+
+.blog-p::first-letter {
+  font-size: 1.8rem;
+}

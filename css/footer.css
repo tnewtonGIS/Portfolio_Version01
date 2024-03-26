@@ -1,0 +1,54 @@
+/**************************/
+/* FOOTER */
+/**************************/
+
+.footer {
+  padding: 2.4rem 0rem;
+  background-color: #0b0c10;
+  color: #45a29e;
+}
+
+.grid--footer {
+  grid-template-columns: 6fr 3.5fr 3.5fr;
+}
+
+.logo-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.foot-title {
+  margin-bottom: 0.8rem;
+  /* color: #66fcf1; */
+}
+
+.foot-p {
+  line-height: 1.6rem;
+  margin-bottom: 0.4rem;
+  color: #37827e;
+  font-size: 1.2rem;
+}
+
+.copyright {
+  line-height: 1.6;
+  font-style: italic;
+  margin-top: auto;
+}
+
+.count-title {
+  width: 20%;
+}
+
+.count-number {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 1.4rem;
+  line-height: 1.6rem;
+  margin-bottom: 0.4rem;
+  color: #37827e;
+  align-content: center;
+}
+
+.counter-flex {
+  display: flex;
+  gap: 3rem;
+}

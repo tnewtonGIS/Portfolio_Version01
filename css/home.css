@@ -1,0 +1,459 @@
+/* .map {
+  height: 20rem;
+} */
+
+/* #map {
+  height: 180px;
+} */
+
+/* #45A29E - Writing
+#37827e	-- Writing - secondary
+#66FCF1 - Writhing - Text Blue
+#85fdf4 - Button - Bright Blue Hover
+#D7F7FF - Logo Light Blue
+#95b2e8 - Logo Medium Blue 
+#0b0C10 - Header-Footer-Sidebar Main Background
+#1F2833 - Grey Secondary
+#C5C6C7 - Cream Text?
+  */
+
+.grid-row {
+  display: grid;
+  grid-row: auto;
+  grid-template-columns: auto auto;
+  gap: 1rem;
+}
+
+.grid-center {
+  /* display: grid; */
+  /* grid-template-columns: 3fr 6fr; */
+  /* gap: 10rem; */
+  /* text-align: justify; */
+  justify-self: center;
+  align-self: center;
+  /* justify-items: center; */
+  /* justify-content: center; */
+  /* align-content: center; */
+  /* align-items: center; */
+}
+
+.space2rem {
+  margin-top: 2rem;
+}
+
+.space4rem {
+  margin-top: 4rem;
+}
+
+.geo-text {
+  font-family: "Poppins", sans-serif;
+  font-size: 7rem;
+  color: #95b2e8;
+}
+
+.geo-roles {
+  font-family: "IBM Plex Sans", "Poppins", sans-serif;
+  font-size: 1.4rem;
+  color: #45a29e;
+  text-shadow: #95b2e8 1px 1px 2px;
+
+  /* color: #95b2e8; */
+  text-transform: capitalize;
+}
+
+.geo-roles2 {
+  font-family: "IBM Plex Sans", "Poppins", sans-serif;
+  font-size: 1.4rem;
+  color: #95b2e8;
+  text-shadow: #45a29e 2px 2px 2px;
+
+  /* color: #95b2e8; */
+  text-transform: capitalize;
+}
+
+.grid-h2 {
+  display: grid;
+  grid-template-columns: 6fr 6fr;
+  gap: 5rem;
+  /* text-align: justify; */
+  justify-items: center;
+  /* align-items: center;
+  justify-content: center; */
+  /* align-content: center; */
+  /* justify-self: center; */
+  /* align-self: center; */
+}
+
+.grid-inline {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 2rem;
+  justify-content: center;
+  align-content: center;
+  justify-items: center;
+  align-items: center;
+}
+
+.img-hero {
+  width: 75%;
+  border-radius: 100%;
+  border: 0.3rem solid #66fcf1;
+}
+
+.img-center {
+  display: block;
+  /* text-align: justify; */
+  justify-items: center;
+  /* align-items: center; */
+  /* justify-content: center; */
+  /* align-content: center; */
+  /* justify-self: center; */
+  /* align-self: center; */
+}
+
+.center-stuff {
+  display: flex;
+  flex-direction: column;
+  /* text-align: justify; */
+  justify-items: center;
+  align-items: center;
+  /* justify-content: center; */
+  /* align-content: center; */
+  /* justify-self: center; */
+  /* align-self: center; */
+}
+
+/* .center-gcircle {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  gap: 1.4rem;
+  justify-content: center;
+  /* align-content: center; */
+/* justify-self: center; */
+/* align-self: center; */
+/* background: #000;
+  height: 0.25rem;
+  /* width: 10rem; */
+/* margin-top: 10px; */
+
+.b {
+  /* content: ""; */
+  background-repeat: no-repeat;
+  background-image: url("../img_background/red_contour.jpg");
+  background-size: cover;
+  background-position: center;
+  /* position: absolute; */
+  /* top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0; */
+  /* opacity: 0.55; */
+}
+
+.hero-right {
+  /* display: flex;
+  /* flex-direction: column; */
+  /* text-align: justify; */
+  justify-items: start;
+  align-items: start;
+}
+
+.hero-p {
+  font-size: 1.6rem;
+  text-align: justify;
+}
+
+.stats-flex {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  /* flex-direction: column; */
+  justify-content: center;
+  gap: 10rem;
+  margin: 2rem 2rem;
+}
+
+.stats-col {
+  display: flex;
+  flex-direction: column;
+  margin: 2rem 1rem;
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  /* align-content: center; */
+  /* justify-self: center; */
+  /* align-self: center; */
+}
+
+.stats-icon {
+  font-size: 5rem;
+}
+
+.stats-yr {
+  font-size: 1.4rem;
+  color: #c5c6c7;
+  /* color: #b1b2b3; */
+}
+
+.stats-p {
+  text-transform: uppercase;
+  color: #c5c6c7;
+  /* font-size: 1.8; */
+}
+
+.stat-p2 {
+  font-size: 1.2rem;
+  text-transform: capitalize;
+  /* font-style: italic; */
+}
+
+.tech-skill {
+  margin-top: 4rem;
+}
+
+.logo-flex {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  /* flex-direction: column; */
+  justify-content: start;
+  align-content: center;
+  align-items: center;
+  /* justify-self: center;
+  align-self: center; */
+  gap: 3rem;
+  margin: 3rem 1rem;
+}
+
+.logo-icon {
+  font-size: 3.4rem;
+}
+
+.logo-img {
+  width: 3.4rem;
+  background-color: white;
+  border-radius: 50%;
+  border: solid 0.15rem white;
+}
+
+.logo-img2 {
+  width: 3.4rem;
+  background-color: white;
+  border-radius: 25%;
+  border: solid 0.15rem white;
+}
+
+.logo-p {
+  text-transform: uppercase;
+  font-size: 1.8rem;
+  font-family: "IBM Plex Sans", "Poppins", sans-serif;
+  color: #c5c6c7;
+  letter-spacing: 0.25rem;
+}
+
+.gis-logo {
+  filter: grayscale(100%);
+  width: 5rem;
+  /* background-color: rgba(228, 220, 220, 0.55); */
+  /* background-color: white; */
+  /* border: #c5c6c7 solid 0.05rem; */
+  /* border-radius: 25%; */
+}
+
+.gis-logo2 {
+  filter: grayscale(100%);
+  width: 10rem;
+}
+
+.gis-logo3 {
+  filter: grayscale(100%);
+  width: 6rem;
+}
+
+.uav-flex {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  /* flex-direction: column; */
+  justify-content: start;
+  align-content: center;
+  align-items: center;
+  /* justify-self: center;
+  align-self: center; */
+  gap: 1rem;
+  margin: 3rem 1rem;
+}
+
+.uav-r-m {
+  margin-right: 2rem;
+}
+
+.uav-p {
+  font-size: 1.2rem;
+}
+
+.testimonial-combo {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+  margin-top: 8rem;
+}
+
+.testimonial-imgs {
+  display: flex;
+  align-content: center;
+}
+
+.testimonial-imgs img {
+  height: 4.8rem;
+  width: 4.8rem;
+  border-radius: 50%;
+  margin-right: -1.6rem;
+  border: 3px solid #45a29e;
+}
+
+.test-flex {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  /* flex-direction: column; */
+  justify-content: start;
+  align-content: center;
+  align-items: center;
+  /* justify-self: center;
+  align-self: center; */
+  gap: 3rem;
+  margin: 3rem 1rem;
+}
+
+.test-text {
+  font-size: 1.4rem;
+}
+
+.test-highlight {
+  color: #45a29e;
+  font-weight: bold;
+}
+
+.center-text {
+  display: grid;
+  justify-content: center;
+}
+
+.agency {
+  background-color: #c5c6c7;
+  padding: 5rem 0;
+  color: #1f2833;
+}
+
+.agency-flex {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  /* align-content: center; */
+  justify-content: center;
+  margin: 2rem 2rem;
+  gap: 2rem;
+  filter: sepia(100%);
+  /* filter: grayscale(100%); */
+}
+
+.agency-logo-circle {
+  width: 9rem;
+}
+
+.agency-logo-circle2 {
+  width: 6rem;
+}
+
+.agency-logo-circle3 {
+  width: 9rem;
+  border-radius: 50%;
+  background-color: white;
+  padding: 0.25rem;
+}
+
+.agency-logo-wide {
+  width: 9rem;
+}
+
+.agency-logo-wide2 {
+  width: 13rem;
+}
+
+.agency-logo-wide3 {
+  width: 13rem;
+  border-radius: 5%;
+  background-color: white;
+  padding: 0.25rem;
+}
+
+.agency-logo-wide4 {
+  width: 9rem;
+  border-radius: 5%;
+  background-color: white;
+  /* padding: 0.005rem; */
+}
+
+/* TESTIMONIAL */
+
+.testimonial {
+  /* background-color: #c5c6c7; */
+  padding: 5rem 0;
+  /* color: #1f2833; */
+}
+
+.t-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 4fr);
+  /* gap: 2rem; */
+}
+
+.t-card {
+  display: flex;
+  flex-wrap: nowrap;
+  /* gap: 2rem; */
+  background: linear-gradient(to top, #45a29e, #c5c6c7);
+  /* background-color: #c5c6c7; */
+  /* border: #66fcf1 0.25rem solid; */
+  border-radius: 2.5%;
+  /* justify-content: center; */
+  margin: 1rem 2rem;
+  /* flex-direction: column; */
+  color: black;
+  /* mix-blend-mode: normal; */
+}
+
+.t-img {
+  width: 50%;
+  border-radius: 50%;
+  border: #66fcf1 0.25rem solid;
+  /* padding: 1rem; */
+  margin: 1rem;
+  justify-content: center;
+  align-self: center;
+}
+
+.t-writing {
+  justify-content: flex-start;
+  margin-top: 2rem;
+  margin-right: 2rem;
+}
+
+.t-text {
+  font-size: 1.4rem;
+  /* text-align: justify; */
+}
+
+.t-name {
+  font-size: 1.2rem;
+  margin-top: 1rem;
+}
+
+.t-job {
+  font-size: 1.1rem;
+  /* margin-top: 0.25rem; */
+  margin-bottom: 0.5rem;
+}

@@ -1,0 +1,615 @@
+<!-- ctrl + k  code comment -->
+<!-- ctrl + / code comment -->
+<!-- ctrl + shift + s save-->
+<!-- ctrl + shift + p open terminal search -->
+<!-- ctrl + shift + ` open command terminal -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- WEBSITE REQUIREMENT -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- WEBSITE META DESCRIPTION AND TOP WEB BAR DISPLAY -->
+    <meta
+      name="description"
+      content="My personnel GIS Portfolio by Travis Newton. Thank you for visiting. I designed and built this website to better understand front end UI/UX techniques."
+    />
+    <!-- for website icon in tab bar -->
+    <link rel="icon" href="img_icons/esrilogo.jpg" />
+    <link rel="apple-touch-icon" href="img_icons/esrilogo.jpg" />
+
+    <!-- FONTS -->
+    <!-- 3 x Fonts Title - Primary - Secondary -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600;700&family=Poppins:wght@300;400;600;700&family=Rubik+Maps&display=swap"
+      rel="stylesheet"
+    />
+    <!-- STLYESHEETS -->
+    <link rel="stylesheet" href="css/blog.css" />
+    <link rel="stylesheet" href="css/education.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/home.css" />
+    <link rel="stylesheet" href="css/jquery.css" />
+    <link rel="stylesheet" href="css/projects.css" />
+    <link rel="stylesheet" href="css/work.css" />
+    <!-- LEAFLET MAP -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+      integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+      crossorigin=""
+    />
+
+    <!-- FUNCTIONALITY -->
+    <!-- <link rel="manifest" href="manifest.webmanifest" />  -->
+
+    <title>GIS Portfolio - Travis Newton</title>
+  </head>
+  <body class="">
+    <!-- NAVBAR NAVBAR NAVBAR -->
+    <header class="header">
+      <a href="#">
+        <img class="header-logo" src="img_icons/navbar_blue.png" alt="" />
+      </a>
+      <nav class="main-nav">
+        <ul class="main-nav-list">
+          <li><a class="main-nav-link nav-cta" href="home.html">Home</a></li>
+          <li>
+            <a class="main-nav-link" href="education.html">Education</a>
+          </li>
+          <li><a class="main-nav-link" href="work.html">Employment</a></li>
+          <li><a class="main-nav-link" href="projects.html">Projects</a></li>
+          <li><a class="main-nav-link" href="blog.html">Blog</a></li>
+        </ul>
+      </nav>
+      <button class="btn-mobile-nav">
+        <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+        <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+      </button>
+    </header>
+    <!-- Hero Section -->
+    <main class="">
+      <section class="hero">
+        <div class="container-section">
+          <div class="grid grid-row space2rem">
+            <p class="geo-text">Geospatial Portfolio</p>
+            <p class="grid-center">
+              <span class="geo-roles2">data analytics &#8226;</span>
+              <span class="geo-roles2">GIS developer &#8226;</span>
+              <span class="geo-roles2">web design &#8226;</span>
+              <span class="geo-roles2">coding automation &#8226;</span>
+              <span class="geo-roles2">machine learning</span>
+            </p>
+          </div>
+          <div class="head-space space4rem grid-h2">
+            <div class="img-center">
+              <div class="center-stuff">
+                <img
+                  class="img-hero space2rem"
+                  src="img_travis_field/Linkden_pic.png"
+                  alt=""
+                />
+                <!-- CHANGE THIS TO IBM TEXT??? -->
+                <h3 class="space2rem">Bringing your GIS dreams to reality</h3>
+              </div>
+              <!-- CENTER THIS AND CREATE A GAP -->
+              <div class="grid-inline space2rem">
+                <h4 class="">GIS Report Card</h4>
+                <div class="center-gstar">
+                  <ion-icon class="star-rate1" name="star"></ion-icon>
+                  <ion-icon class="star-rate1" name="star"></ion-icon>
+                  <ion-icon class="star-rate1" name="star"></ion-icon>
+                  <ion-icon class="star-rate1" name="star"></ion-icon>
+                  <ion-icon class="star-rate1" name="star"></ion-icon>
+                </div>
+              </div>
+              <!-- TESTIMONIAL ROW IMG -->
+              <div class="test-flex">
+                <div class="testimonial-imgs">
+                  <img
+                    src="https://randomuser.me/api/portraits/men/8.jpg"
+                    alt="Customer photo"
+                  />
+                  <img
+                    src="https://randomuser.me/api/portraits/men/91.jpg"
+                    alt="Customer photo"
+                  />
+                  <img
+                    src="https://randomuser.me/api/portraits/women/64.jpg"
+                    alt="Customer photo"
+                  />
+                  <img
+                    src="https://randomuser.me/api/portraits/women/48.jpg"
+                    alt="Customer photo"
+                  />
+                  <img
+                    src="https://randomuser.me/api/portraits/men/26.jpg"
+                    alt="Customer photo"
+                  />
+                  <img
+                    src="https://randomuser.me/api/portraits/women/83.jpg"
+                    alt="Customer photo"
+                  />
+                </div>
+                <div class="">
+                  <p class="test-text">
+                    <span class="test-highlight"> Dozens</span> of satisified
+                    customers
+                  </p>
+                </div>
+              </div>
+              <!-- TESTIMONIAL END -->
+            </div>
+
+            <div class="hero-right">
+              <div class="about">
+                <h2>About Me</h2>
+                <p class="hero-p">
+                  I enjoy dabbling in everything geospatial with an increased
+                  focus on public health, emergency management, and tribal
+                  nations. My favorite activity involves fieldwork, collecting
+                  data, and embedding by, with and through the end users to
+                  understand agency workflows to develop a holistic system. I
+                  aim to educate agency leaders in the art of the possible by
+                  using my techniques and development designs to better serve
+                  their national and local communities. With over twenty years
+                  of federal experience, I bring those highly sought-after soft
+                  skills needed for project collaboration.
+                  <span style="font-style: italic">
+                    Are you ready to begin?</span
+                  >
+                </p>
+              </div>
+              <div class="stats">
+                <div class="stats-flex">
+                  <!-- stats #1 -->
+                  <div class="stats-col">
+                    <ion-icon
+                      class="stats-icon"
+                      name="shield-checkmark-outline"
+                    ></ion-icon>
+                    <p class="stats-yr">20+</p>
+                    <h5 class="stats-p">
+                      dod <span class="stat-p2">years</span>
+                    </h5>
+                  </div>
+                  <!-- stats #1end -->
+                  <!-- stats #2 -->
+                  <div class="stats-col">
+                    <ion-icon
+                      class="stats-icon"
+                      name="earth-outline"
+                    ></ion-icon>
+                    <p class="stats-yr">6+</p>
+                    <h5 class="stats-p">
+                      gis <span class="stat-p2">years</span>
+                    </h5>
+                  </div>
+                  <!-- stats #2end -->
+                  <!-- stats #3 -->
+                  <div class="stats-col">
+                    <ion-icon
+                      class="stats-icon"
+                      name="people-outline"
+                    ></ion-icon>
+                    <p class="stats-yr">34+</p>
+                    <h5 class="stats-p">
+                      Customer <span class="stat-p2">projects</span>
+                    </h5>
+                  </div>
+                  <!-- stats #3end -->
+                </div>
+              </div>
+              <!-- STATS END -->
+              <div class="work-seperator"></div>
+              <div>
+                <h3 class="tech-skill">Technical Skills</h3>
+              </div>
+              <!-- GIS START -->
+              <div class="gis-skill">
+                <div class="logo-flex">
+                  <p class="logo-p">GIS</p>
+                  <img
+                    class="gis-logo"
+                    src="img_icons/grassgis_logo_colorlogo_text_alphabg.png"
+                    alt=""
+                  />
+                  <img class="gis-logo2" src="img_icons/esri_logo.png" alt="" />
+                  <img
+                    class="gis-logo2"
+                    src="img_icons/qgis-logo_anita02.png"
+                    alt=""
+                  />
+                  <img
+                    class="gis-logo"
+                    src="img_icons/DB_postgressql.png"
+                    alt=""
+                  />
+                </div>
+              </div>
+              <!-- GIS End -->
+              <!-- CODING START -->
+              <div class="coding">
+                <div class="logo-flex">
+                  <p class="logo-p">Programming</p>
+                  <ion-icon class="logo-icon" name="logo-html5"></ion-icon>
+                  <ion-icon class="logo-icon" name="logo-css3"></ion-icon>
+                  <ion-icon class="logo-icon" name="logo-javascript"></ion-icon>
+                  <ion-icon class="logo-icon" name="logo-python"></ion-icon>
+                  <ion-icon class="logo-icon" name="logo-github"></ion-icon>
+                  <img
+                    class="logo-img"
+                    src="img_icons/r-circle-fill.svg"
+                    alt=""
+                  />
+                  <img
+                    class="logo-img2"
+                    src="img_icons/filetype-sql.svg"
+                    alt=""
+                  />
+                </div>
+              </div>
+              <!-- CODING End -->
+
+              <!-- UAV START -->
+              <div class="uav-skill">
+                <div class="uav-flex">
+                  <p class="logo-p uav-r-m">UAS</p>
+                  <p class="uav-p">Agisoft Pro</p>
+                  <p>&#8226;</p>
+                  <p class="uav-p">DJI Flight Plannner</p>
+                  <p>&#8226;</p>
+                  <p class="uav-p">Litchi Flight Control</p>
+                  <p>&#8226;</p>
+                  <p class="uav-p">Esri Sitescan - Drone2Map</p>
+                </div>
+              </div>
+              <!-- UAV End -->
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="agency">
+        <div class="container-section">
+          <h2 class="center-text">Featured Agencies</h2>
+          <!-- FEDERAL -->
+          <h4 class="center-text space4rem">Federal</h4>
+          <div class="agency-flex">
+            <img
+              class="agency-logo-wide3"
+              src="img_agency/ASPR Logo Blue (png).png"
+              alt=""
+            />
+            <img class="agency-logo-circle" src="img_agency/bia2.png" alt="" />
+            <img
+              class="agency-logo-circle"
+              src="img_agency/doj-our-mission-seal.png"
+              alt=""
+            />
+            <img
+              class="agency-logo-wide3"
+              src="img_agency/FEMA_logo.png"
+              alt=""
+            />
+            <img
+              class="agency-logo-circle3"
+              src="img_agency/HHS Logo Blue (png).png"
+              alt=""
+            />
+            <img
+              class="agency-logo-circle3"
+              src="img_agency/IHS_2.gif"
+              alt=""
+            />
+            <img
+              class="agency-logo-circle"
+              src="img_agency/HHS_Office_of_Inspector_General_logo_grayscale.png"
+              alt=""
+            />
+            <img
+              class="agency-logo-circle"
+              src="img_agency/NASA_logo.png"
+              alt=""
+            />
+            <img
+              class="agency-logo-wide"
+              src="img_agency/NIH_Master_Logo_Vertical_2Color.png"
+              alt=""
+            />
+            <img class="agency-logo-circle" src="img_agency/NPS_3.png" alt="" />
+            <img
+              class="agency-logo-wide3"
+              src="img_agency/US_Department_of_Veterans_Affairs_logo.svg.png"
+              alt=""
+            />
+            <img
+              class="agency-logo-circle2"
+              src="img_agency/army1.png"
+              alt=""
+            />
+          </div>
+          <!-- FEDERAL END -->
+          <!-- STATE START -->
+          <h5 class="center-text space4rem">Cities and States</h5>
+          <div class="agency-flex">
+            <img
+              class="agency-logo-circle"
+              src="img_agency/AugustaRound4.png"
+              alt=""
+            />
+            <img
+              class="agency-logo-circle"
+              src="img_agency/azgf_logo.gif"
+              alt=""
+            />
+            <img
+              class="agency-logo-circle3"
+              src="img_agency/LfG6mscn_400x400.jpg"
+              alt=""
+            />
+            <img
+              class="agency-logo-circle"
+              src="img_agency/gema-logo.png"
+              alt=""
+            />
+            <img
+              class="agency-logo-circle"
+              src="img_agency/EBCI-Tribalseal_final.png"
+              alt=""
+            />
+            <img
+              class="agency-logo-wide4"
+              src="img_agency/DPH_Logo_RED_new.png"
+              alt=""
+            />
+            <img
+              class="agency-logo-circle3"
+              src="img_agency/DPHLogo_Blue_ma.png"
+              alt=""
+            />
+            <img
+              class="agency-logo-wide3"
+              src="img_agency/gresham-logo2.png"
+              alt=""
+            />
+            <img
+              class="agency-logo-circle3"
+              src="img_agency/md_hhs.jpeg"
+              alt=""
+            />
+
+            <img
+              class="agency-logo-wide3"
+              src="img_agency/ohp-logo1.png"
+              alt=""
+            />
+            <img
+              class="agency-logo-wide"
+              src="img_agency/va_police.png"
+              alt=""
+            />
+          </div>
+          <!-- STATE END -->
+        </div>
+      </section>
+      <section class="testimonial">
+        <div class="container-section">
+          <h2 class="center-text">Testimonials</h2>
+          <!-- Testimnial ROW -->
+          <div class="t-grid">
+            <!-- CARD 1 -->
+            <div class="t-card">
+              <img
+                class="t-img"
+                src="https://randomuser.me/api/portraits/men/8.jpg"
+                alt="Customer photo"
+              />
+              <div class="t-writing">
+                <p class="t-text">
+                  Travis's development design enabled accurate tracking of
+                  personnel and resources for deployments with quality assurance
+                  accountability using Esri products. The app has been a great
+                  addition to the organization.
+                </p>
+                <p class="t-name">Joseph Lane</p>
+                <p class="t-job">Program Manager, FEMA</p>
+              </div>
+            </div>
+            <!-- CARD 1END -->
+            <!-- CARD 2 -->
+            <div class="t-card">
+              <img
+                class="t-img"
+                src="https://randomuser.me/api/portraits/men/91.jpg"
+                alt="Customer photo"
+              />
+              <div class="t-writing">
+                <p class="t-text">
+                  We had an outdated third-party app. Travis took our ideas and
+                  expanded on them using his veteran and GIS experience to
+                  design code, geospatial tools, and a front-end application
+                  beyond expectation to improve veterans' access to healthcare.
+                </p>
+                <p class="t-name">Dr. McLoughlin</p>
+                <p class="t-job">Principal GIS, VHA</p>
+              </div>
+            </div>
+            <!-- CARD 2END -->
+            <!-- CARD 3 -->
+            <div class="t-card">
+              <img
+                class="t-img"
+                src="https://randomuser.me/api/portraits/women/64.jpg"
+                alt="Customer photo"
+              />
+              <div class="t-writing">
+                <p class="t-text">
+                  Our organization was ready to streamline facility information
+                  access and updating by region. Travis's designs and quality
+                  control prototype were well received, and we look forward to
+                  implementation.
+                </p>
+                <p class="t-name">Marie Equi</p>
+                <p class="t-job">Technician, IHS</p>
+              </div>
+            </div>
+            <!-- CARD 3 END -->
+          </div>
+
+          <!-- Testimonial ROW  END -->
+
+          <!-- Testimnial ROW -->
+          <div class="t-grid">
+            <!-- CARD 1 -->
+            <div class="t-card">
+              <img
+                class="t-img"
+                src="https://randomuser.me/api/portraits/women/48.jpg"
+                alt="Customer photo"
+              />
+              <div class="t-writing">
+                <p class="t-text">
+                  As a team of data scientist, our statistical code was not
+                  transferable to applicable GIS software. Travis's ability to
+                  read and write in R enabled him to show us a desktop
+                  geospatial tool and deliver an equivalent Python geospatial
+                  webtool and app that met our needs.
+                </p>
+                <p class="t-name">Tabitha Brown</p>
+                <p class="t-job">Data Scientist, OIG</p>
+              </div>
+            </div>
+            <!-- CARD 1END -->
+            <!-- CARD 2 -->
+            <div class="t-card">
+              <img
+                class="t-img"
+                src="https://randomuser.me/api/portraits/men/26.jpg"
+                alt="Customer photo"
+              />
+              <div class="t-writing">
+                <p class="t-text">
+                  Travis designed and built multiple apps for GEMA. His last
+                  application automated our Hurricane damage by ingesting NOAA
+                  imagery and vector data that populated dashboards, resulting
+                  in faster FEMA declaration funding.
+                </p>
+                <p class="t-name">Issac Stevens</p>
+                <p class="t-job">GIS Manager, GEMA</p>
+              </div>
+            </div>
+            <!-- CARD 2END -->
+            <!-- CARD 3 -->
+            <div class="t-card">
+              <img
+                class="t-img"
+                src="https://randomuser.me/api/portraits/women/83.jpg"
+                alt="Customer photo"
+              />
+              <div class="t-writing">
+                <p class="t-text">
+                  After initially experiencing frustration with a standard Esri
+                  solution product, Travis listened to our needs and how our
+                  organization operated. He then designed a custom mosquito app
+                  solution that fits our needs, allowing us to transition from
+                  paper collection and reporting.
+                </p>
+                <p class="t-name">Sarah Winnemucca</p>
+                <p class="t-job">Field Manager, Augusta DNR</p>
+              </div>
+            </div>
+            <!-- CARD 3 END -->
+          </div>
+
+          <!-- Testimonial ROW  END -->
+
+          <!-- <img
+          src="https://randomuser.me/api/portraits/women/48.jpg"
+          alt="Customer photo"
+        />
+        <img
+          src="https://randomuser.me/api/portraits/men/26.jpg"
+          alt="Customer photo"
+        />
+        <img
+          src="https://randomuser.me/api/portraits/women/83.jpg"
+          alt="Customer photo"
+        />  -->
+        </div>
+      </section>
+    </main>
+    <!-- FOOTER FOOTER FOOTER -->
+    <footer class="footer">
+      <div class="container grid grid--footer">
+        <div class="foot-col-1">
+          <h5 class="foot-title">About Portfolio</h5>
+          <p class="foot-p">
+            This website was built with pure HTML5, CSS, and Javascript.
+            Previous versions included Bootstrap5, nodeJS, and SASS. Future
+            upgraqdes will incorporate Leaflet and ChartJS. My portfolio was a
+            culmination of developer courses taken at Udemy.
+          </p>
+          <p class="copyright foot-p">
+            Copyright &copy; <span class="year">2024</span> by Travis Newton All
+            rights reserved.
+          </p>
+        </div>
+        <div class="foot-col-2">
+          <h5 class="foot-title">Links</h5>
+          <ul class="link-off">
+            <li>
+              GitHub:
+              <a class="link-color" href="https://github.com/tnewtonGIS"
+                ><strong>GIS GUY</strong> - <i>tnewtonGIS</i></a
+              >
+            </li>
+            <li>
+              Contact:
+              <a
+                class="link-color"
+                href="mailto:tnewton.gis@proton.me"
+                target="_blank"
+                ><strong>T.Newton</strong> <i>-Email</i></a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="foot-col-3">
+          <h5 class="foot-title">Site Visits</h5>
+          <div class="counter-flex">
+            <h6 class="count-title">Unique</h6>
+            <p class="count-number">5</p>
+          </div>
+          <div class="counter-flex">
+            <h6 class="count-title">Cumulative</h6>
+            <p class="count-number">10</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- JAVASCRIPT LINKS -->
+    <script src="js/script.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!-- <script src="js/darkmodetoggle.js"></script> -->
+    <script src="js/lightbox-plus-jquery.min.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule=""
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"
+    ></script>
+    <script
+      defer
+      src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"
+    ></script>
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,1250 @@
+<!-- ctrl + k  code comment -->
+<!-- ctrl + / code comment -->
+<!-- ctrl + shift + s save-->
+<!-- ctrl + shift + p open terminal search -->
+<!-- ctrl + shift + ` open command terminal -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- WEBSITE REQUIREMENT -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- WEBSITE META DESCRIPTION AND TOP WEB BAR DISPLAY -->
+    <meta
+      name="description"
+      content="My personnel GIS Portfolio by Travis Newton. Thank you for visiting. I designed and built this website to better understand front end UI/UX techniques."
+    />
+    <!-- ICONS for website tab bar thumbnail -->
+    <link rel="icon" href="img_icons/esrilogo.jpg" />
+    <link rel="apple-touch-icon" href="img_icons/esrilogo.jpg" />
+
+    <!-- FONTS -->
+    <!-- 3 x Fonts Title - Primary - Secondary -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&family=Rubik+Maps&display=swap"
+      rel="stylesheet"
+    />
+    <!-- STLYESHEETS -->
+    <link rel="stylesheet" href="css/blog.css" />
+    <link rel="stylesheet" href="css/education.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/home.css" />
+    <link rel="stylesheet" href="css/jquery.css" />
+    <link rel="stylesheet" href="css/projects.css" />
+    <link rel="stylesheet" href="css/work.css" />
+
+    <!-- FUNCTIONALITY -->
+    <link rel="manifest" href="manifest.webmanifest" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+
+    <title>GIS Portfolio - Travis Newton</title>
+  </head>
+  <body>
+    <!-- NAVBAR NAVBAR NAVBAR -->
+    <header class="header">
+      <a href="#">
+        <img class="header-logo" src="img_icons/navbar_blue.png" alt="" />
+      </a>
+      <nav class="main-nav">
+        <ul class="main-nav-list">
+          <li><a class="main-nav-link" href="home.html">Home</a></li>
+          <li>
+            <a class="main-nav-link nav-cta" href="education.html">Education</a>
+          </li>
+          <li><a class="main-nav-link" href="work.html">Employment</a></li>
+          <li><a class="main-nav-link" href="projects.html">Projects</a></li>
+          <li><a class="main-nav-link" href="blog.html">Blog</a></li>
+        </ul>
+      </nav>
+      <button class="btn-mobile-nav">
+        <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+        <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+      </button>
+    </header>
+
+    <!-- TWO SECTION PAGE -->
+
+    <main>
+      <!-- SIDEBAR EDUCATION COURSES -->
+      <div class="grid-sidebar">
+        <section class="sidebar">
+          <!-- ////////////////////////////////////////////////////// -->
+          <div class="sidebar-top">
+            <img
+              class="img-profile img-profile--sidebar"
+              src="/img_travis_field/Linkden_pic.png"
+              alt="Self Potrait from Linkden"
+            />
+            <span class="sidebar-title">Course Description</span>
+            <ion-icon
+              class="sidebar-expand"
+              name="expand-outline"
+              id="btnshrink"
+            ></ion-icon>
+          </div>
+          <!-- ////////////////////////////////////////////////////// -->
+
+          <button class="accordion">
+            <img class="uni-logo" src="img_icons/NCSU2.jpg" alt="" /> North
+            Carolina State University
+            <span class="accordian-arrow"
+              ><ion-icon name="chevron-down-circle-outline"></ion-icon
+            ></span>
+          </button>
+          <div class="panel">
+            <div class="uni-course-list-hide">
+              <h6>Masters Geospatial Information Science Tecnhology</h6>
+              <h6 class="uni-sh">3.87 GPA</h6>
+            </div>
+            <div class="uni-course-list-hide uni-timeline">
+              <p>2018-08 &#10148; 2021-05</p>
+              <p class="uni-sh">Total &#187; 57sh</p>
+            </div>
+            <div
+              class="uni-course-list"
+              data-tooltip="GIS660: This course will focus on creating an effective digital portfolio, including content selection, description and reflection, and web
+              site organization and design. The digital portfolio will present personal MGIST program accomplishments to demonstrate
+              individual competences through knowledge, skills, and abilities of a geospatial science professional. Intended for students in
+              their last semester in the MGIST Program."
+            >
+              <p class="uni-course" data-tooltip="">GIS 660:</p>
+              <p class="uni-course-title">MGIST Portfolio</p>
+              <p class="uni-sh">1sh</p>
+            </div>
+            <div
+              class="uni-course-list"
+              data-tooltip="GIS630: Advanced topics not otherwise included in curriculum for advanced graduate students on a tutorial basis. Credit applied for
+            two internships (NASA DEVELOP, Global Trek Mapping)"
+            >
+              <p class="uni-course">GIS 630:</p>
+              <p class="uni-course-title">Internships</p>
+              <p class="uni-sh">6sh</p>
+            </div>
+            <div
+              class="uni-course-list"
+              data-tooltip="GIS609: The Geospatial Forum brings together researchers, educators, practitioners, and students of the geospatial sciences in an exciting, weekly series of lively presentations and facilitated discussions centered upon frontiers in geospatial analytics and geospatial solutions to complex challenges. Live discussions are recorded and made available online for students."
+            >
+              <p class="uni-course">GIS 609:</p>
+              <p class="uni-course-title">Geospatial Forum</p>
+              <p class="uni-sh">1sh</p>
+            </div>
+            <div
+              class="uni-course-list"
+              data-tooltip="GIS590: This is the culmination course for The Master of Geospatial Information Science and Technology degree. This course provides students with the opportunity to demonstrate their accumulated degree skills and expertise by developing and communicating
+            the solution to a complex geospatial problem through a Master's Capstone project. The project will include interoperable
+            spatial and non-spatial data, web services, customized user interfaces and workflows completed in collaboration with a com-
+            munity partner. The student will design and manage a major project and professionally communicate their analysis and
+            results to a public audience."
+            >
+              <p class="uni-course">GIS 590:</p>
+              <p class="uni-course-title">
+                Geospatial Information Science Masters Project
+              </p>
+              <p class="uni-sh">3sh</p>
+            </div>
+            <div
+              class="uni-course-list"
+              data-tooltip="GIS584: The course provides an overview of UAS mapping technology and its rules and regulations. The principles of UAS data collection are explained along with optional hands-on practice with in flight planning and execution. The main focus is on
+              processing imagery collected from UAS using structure from motion techniques and deriving orthophoto mosaics and ultra-high
+              resolution digital elevation models of land surface, vegetation and structures. More advanced topics include multi-temporal
+              3D data analysis, fusion with lidar data and 3D visualization. (Originally codes as GIS 595: Special Topics)."
+            >
+              <p class="uni-course">GIS 584:</p>
+              <p class="uni-course-title">Mapping and Analysis Using UAS</p>
+              <p class="uni-sh">3sh</p>
+            </div>
+            <div
+              class="uni-course-list"
+              data-tooltip="GIS582: The course provides foundations in methods for GIS-based surface analysis and modeling. The topics include proximity
+              analysis with cost surfaces and least cost paths, multivariate spatial interpolation and 3D surface visualization. Special focus
+              is on terrain modeling, geomorphometry, solar irradiation, visibility, and watershed analysis. Students are also introduced
+              to the basic concepts of landscape process modeling with GIS and to the principles of open source GIS. Introductory level
+              knowledge of GIS or surveying/ geomatics principles is required."
+            >
+              <p class="uni-course">GIS 582:</p>
+              <p class="uni-course-title">Geospatial Modeling</p>
+              <p class="uni-sh">3sh</p>
+            </div>
+            <div
+              class="uni-course-list"
+              data-tooltip="GIS550: This course examines the spatial database models and structures used in geospatial information science and technology as
+              well as the design and implementation of web and related mobile computing geospatial tools and systems. Students develop,
+              evaluate, and deploy multiple spatial data models and web services that include connections to external data sources and
+              systems."
+            >
+              <p class="uni-course">GIS 550:</p>
+              <p class="uni-course-title">
+                Geospatial Data Structures and Web Services
+              </p>
+              <p class="uni-sh">3sh</p>
+            </div>
+            <div
+              class="uni-course-list"
+              data-tooltip="GIS540: This course provides fundamental skills for geospatial programming. Topics include calling geographic processing tools, batch processing, performing file i/o in an external computing language and building, graphical user interfaces and displays. To
+              support these tasks, students learn basic programming concepts, such as pseudocode, flow-control, code re-use, and debugging.
+              In the final project, students streamline GIS work-flow and customize GIS user interfaces. Familiarity with GIS software is
+              required, but no prior programming experience is expected."
+            >
+              <p class="uni-course">GIS 540:</p>
+              <p class="uni-course-title">
+                Geospatial Programming Fundamentals
+              </p>
+              <p class="uni-sh">3sh</p>
+            </div>
+            <div
+              class="uni-course-list"
+              data-tooltip="GIS535: This course examines the design, development and deployment of web and mobile geospatial applications using internet and web-based protocols. Throughout the course, students will develop and deploy web and mobile GIS maps and applications
+              relevant to their career using on-premises hosted infrastructure. Course participants will be required to complete assignments
+              with data relevant to their interests. Additionally, students will search for and examine scientific and popular literature to
+              understand how the course concepts are being employed and to foster ideas and discussion."
+            >
+              <p class="uni-course">GIS 535:</p>
+              <p class="uni-course-title">Web and Mobile GIS Protocols</p>
+              <p class="uni-sh">3sh</p>
+            </div>
+            <div
+              class="uni-course-list"
+              data-tooltip="GIS532: This course provides the background and foundation necessary for geospatial analysis, with emphasis on spatial statistics.
+              Introduction to data handling techniques, conceptual and practical geospatial data analysis and GIS in research will be
+              provided. Problems raised by the use of geospatial data will be introduced to provide an awareness of issues, their consequences,
+              and potential solutions. The focus of this course is application and interpretation of analytical methods, rather than derivation
+              of techniques. Students will also explore the interoperability between open source analytical platforms [such as R] and GIS
+              platforms, in addition to other open source software. Students should expect weekly assignments, lectures, and hands-on
+              training using GIS and statistical software. Prior knowledge in basics of GIS is recommended. Topics include descriptive and
+              inferential statistical methods for geospatial data. (Originally codes as GIS 595: Special Topics)"
+            >
+              <p class="uni-course">GIS 532:</p>
+              <p class="uni-course-title">
+                Geospatial Data Science and Analysis
+              </p>
+              <p class="uni-sh">2sh</p>
+            </div>
+            <div
+              class="uni-course-list"
+              data-tooltip="GIS530: This course focuses on geospatial information systems from a mathematical and information science perspective. We discuss
+              theoretical frameworks for conceptualizing geographic data, including levels of measurement, data control, and the vector
+              data and raster data paradigms. Then we discuss the geometric underpinnings of geospatial systems: representing data with
+              geographic elements, spatial referencing systems, and projection. Next, we explore map-related topology and computational
+              geometry concepts. Finally, we survey the algorithms for core spatial manipulations, such as interpolation and polygon
+              operations."
+            >
+              <p class="uni-course">GIS 530:</p>
+              <p class="uni-course-title">Spatial Data Foundations</p>
+              <p class="uni-sh">3sh</p>
+            </div>
+            <div
+              class="uni-course-list"
+              data-tooltip="GIS521: The application of geographic information systems [GIS] to surface water modeling including stream and watershed delineations, regulatory wetlands jurisdiction determinations, and flood mapping. In addition students will develop spatial computation
+              methods to support hydrological analysis in land use planning, landscape management, and engineering assessments."
+            >
+              <p class="uni-course">GIS 521:</p>
+              <p class="uni-course-title">Surface Water Hydrology with GIS</p>
+              <p class="uni-sh">3sh</p>
+            </div>
+            <div
+              class="uni-course-list"
+              data-tooltip="GIS520: Focus on spatial problem solving from a geographic information perspective. Students learn to solve spatial problems through advanced analysis using geospatial technologies, learn to integrate and analyze spatial data in various formats, and explore methods for displaying geographic data analysis results to guide decision making. All course materials are delivered through
+              the Internet, with optional weekly on-campus and synchronous online help sessions."
+            >
+              <p class="uni-course">GIS 520:</p>
+              <p class="uni-course-title">Spatial Problem Solving</p>
+              <p class="uni-sh">3sh</p>
+            </div>
+            <div
+              class="uni-course-list"
+              data-tooltip="GIS515: Principles of cartographic design and how to apply them to produce high-quality geographic information system [GIS] based maps. Successful students will acquire an understanding of map design and experience applying it with GIS software. Students produce project maps in both print and web media."
+            >
+              <p class="uni-course">GIS 515:</p>
+              <p class="uni-course-title">Cartographic Design</p>
+              <p class="uni-sh">2sh</p>
+            </div>
+            <div
+              class="uni-course-list"
+              data-tooltip="GIS510: This course provides an advanced overview of how geographic information systems [GIS] facilitate data analysis and communication to address common geographic problems. Students improve spatial reasoning and problem definition expertise while
+              emphasizing geographic data models and structures, data manipulation and storage, customization through programming, and the integration of geospatial analysis and modeling into project-based problem solving applicable to a variety of disciplines. Skilled application of both desktop and cloud-based GIS software supports these areas. Extensive independent learning and computer experiences include virtual laboratory sessions, alongside optional online or in-person weekly help sessions to facilitate student learning."
+            >
+              <p class="uni-course">GIS 510:</p>
+              <p class="uni-course-title">
+                Fundamentals of Geospatial Information Science and Technology
+              </p>
+              <p class="uni-sh">3sh</p>
+            </div>
+            <div
+              class="uni-course-list"
+              data-tooltip="GIS501: Students will examine a variety of topics critical to successful navigation of the geospatial profession, with an emphasis on map communication and presentation, interpreting geospatial research, the ethical, legal, and social implications [ELSI] of using spatial data, metadata concepts, and linking results to policy actions. Students will engage in several writing, presentation, and interpretation exercises."
+            >
+              <p class="uni-course">GIS 501:</p>
+              <p class="uni-course-title">Geospatial Professionalism</p>
+              <p class="uni-sh">2sh</p>
+            </div>
+            <div
+              class="uni-course-list"
+              data-tooltip="ST512: Covariance, multiple regression, curvilinear regression, concepts of experimental design, factorial experiments, confounded factorials, individual degrees of freedom and split-plot experiments. Computing laboratory addressing computational issues
+              and use of statistical software."
+            >
+              <p class="uni-course">ST 512:</p>
+              <p class="uni-course-title">
+                Statistical Methods For Researchers II
+              </p>
+              <p class="uni-sh">3sh</p>
+            </div>
+            <div
+              class="uni-course-list"
+              data-tooltip="ST511: Basic concepts of statistical models and use of samples; variation, statistical measures, distributions, tests of significance, analysis of variance and elementary experimental design, regression and correlation, chi-square."
+            >
+              <p class="uni-course">ST 511:</p>
+              <p class="uni-course-title">
+                Statistical Methods For Researchers I
+              </p>
+              <p class="uni-sh">3sh</p>
+            </div>
+            <div
+              class="uni-course-list"
+              data-tooltip="ST308: Introduction to the statistical programming language R. The course will cover: reading and manipulating data; use of common data structures [vectors, matrices, arrays, lists]; basic graphical representations."
+            >
+              <p class="uni-course">ST 308:</p>
+              <p class="uni-course-title">
+                Introduction to Statistical Programming - R
+              </p>
+              <p class="uni-sh">2sh</p>
+            </div>
+          </div>
+          <!-- ////////////////////////////////////////////////////// -->
+
+          <button class="accordion">
+            <img
+              class="uni-logo uni-logo-white uni-asu"
+              src="img_icons/asu.png"
+              alt=""
+            />
+            Arizona State Univeristy
+            <span class="accordian-arrow"
+              ><ion-icon name="chevron-down-circle-outline"></ion-icon
+            ></span>
+          </button>
+          <div class="panel">
+            <div class="uni-course-list-hide">
+              <h6 class="uni-course-list-hide">Post Bachelor course work</h6>
+              <h6 class="uni-sh uni-course-list-hide">4.0 GPA</h6>
+            </div>
+            <div class="uni-course-list-hide uni-timeline">
+              <p>2018-01 &#10148; 2018-08</p>
+              <p class="uni-sh">Total &#187; 31sh</p>
+            </div>
+
+            <div
+              class="uni-course-list"
+              data-tooltip="GCU322: Spatial distribution of relevant physical, economic, and cultural phenomena in the United States and Canada."
+            >
+              <p class="uni-course">GCU 322:</p>
+              <p class="uni-course-title">Geography of U.S. and Canada</p>
+              <p class="uni-sh">3sh</p>
+            </div>
+            <div
+              class="uni-course-list"
+              data-tooltip="GCU102: Systematic study of human use of the Earth. Spatial organization of economic, social, political, and perceptual environments."
+            >
+              <p class="uni-course">GCU 102:</p>
+              <p class="uni-course-title">Introduction to Human Geography</p>
+              <p class="uni-sh">3sh</p>
+            </div>
+            <div
+              class="uni-course-list"
+              data-tooltip="GIS341: Study and creation of maps. Fundamental mapping principles (projection, scale, generalization, symbolization) and computer based cartographic production."
+            >
+              <p class="uni-course">GIS 341:</p>
+              <p class="uni-course-title">
+                Introduction to Cartography and Georepresentation
+              </p>
+              <p class="uni-sh">3sh</p>
+            </div>
+            <div
+              class="uni-course-list"
+              data-tooltip="GIS311: GIS as a basis for microcomputer spatial analysis and synthesis. Includes digitizing, database organization, spatial retrieval,
+              and graphics."
+            >
+              <p class="uni-course">GIS 311:</p>
+              <p class="uni-course-title">Geographic Information Science III</p>
+              <p class="uni-sh">4sh</p>
+            </div>
+            <div
+              class="uni-course-list"
+              data-tooltip="GIS211: History and basic aspects of GIS including map and data file structure, conversions, and synthesis with a computerized environment."
+            >
+              <p class="uni-course">GIS 211:</p>
+              <p class="uni-course-title">Geographic Information Science II</p>
+              <p class="uni-sh">4sh</p>
+            </div>
+            <div
+              class="uni-course-list"
+              data-tooltip="GIS205: Introduces spatial thinking, a cross-disciplinary foundation for geographic information science (the science of dealing with spatial/geographical data; their manipulation, interpretation and use in problem solving); geospatial technologies (the specific technologies underpinning geographic information science); and spatial analysis (the science of solving spatial problems)."
+            >
+              <p class="uni-course">GIS 205:</p>
+              <p class="uni-course-title">Geographic Information Science I</p>
+              <p class="uni-sh">3sh</p>
+            </div>
+
+            <div
+              class="uni-course-list"
+              data-tooltip="GLG101: Inroduction to Geology I (4sh) Basic principles of geology, geochemistry, and geophysics. Rocks, minerals, weathering, earthquakes, mountain building, volcanoes, water, and glaciers. Both GLG 101 and 103 must be taken to secure SQ General Studies credit."
+            >
+              <p class="uni-course">GLG 101:</p>
+              <p class="uni-course-title">Inroduction to Geology I</p>
+              <p class="uni-sh">4sh</p>
+            </div>
+
+            <div
+              class="uni-course-list"
+              data-tooltip="GPH381 Nature and distribution of natural resources and the problems and principles associated with their use."
+            >
+              <p class="uni-course">GPH 381:</p>
+              <p class="uni-course-title">Geography of Natural Resources</p>
+              <p class="uni-sh">3sh</p>
+            </div>
+            <div
+              class="uni-course-list"
+              data-tooltip="GPH211 Laboratory science class on earth-surface processes, with exercises emphasizing how erosion, transportation, and deposition modifies landforms."
+            >
+              <p class="uni-course">GPH 211:</p>
+              <p class="uni-course-title">Landform Process</p>
+              <p class="uni-sh">4sh</p>
+            </div>
+          </div>
+          <!-- ////////////////////////////////////////////////////// -->
+          <!-- ////////////////////////////////////////////////////// -->
+
+          <button class="accordion">
+            <img
+              class="uni-logo uni-logo-white"
+              src="img_icons/excel_college.png"
+              alt=""
+            />
+            Excelsior College
+            <span class="accordian-arrow"
+              ><ion-icon name="chevron-down-circle-outline"></ion-icon
+            ></span>
+          </button>
+          <div class="panel">
+            <div class="uni-course-list-hide">
+              <h6 class="">Bachelor Social Science</h6>
+              <h6 class="uni-sh">3.86 GPA</h6>
+            </div>
+            <div class="uni-course-list-hide uni-2deg">
+              <p class="">Associate Applied Science Business Management</p>
+              <p class="uni-sh">3.63 GPA</p>
+            </div>
+            <div class="uni-course-list-hide uni-timeline">
+              <p>2016-01 &#10148; 2017-12</p>
+              <p class="uni-sh">Total &#187; 64sh</p>
+            </div>
+            <div
+              class="uni-course-list"
+              data-tooltip="BIO110 This is a course designed for students who need to complete the General Education requirement for math and science as well as for those considering majoring in the natural sciences. The course covers the major areas of study and aspects of life on our planet explored by biologists. The course moves from the cellular and biochemical level through all classifications of living organisms to the examination of ecology and the biosphere. Students will also spend time examining the process of evolution for both populations and species. There is a final project that the students will work on throughout their time in the course. This final project is a presentation that will utilize both audio and video recordings. Several discussions in the course will require audio recordings to be submitted. Students are expected to be able to access the appropriate technologies to complete these assignments. Freely available technology options will be provided in the course."
+            >
+              <p class="uni-course">BIO 110:</p>
+              <p class="uni-course-title">Biology Non-Lab</p>
+              <p class="uni-sh">3sh</p>
+            </div>
+            <div
+              class="uni-course-list"
+              data-tooltip="BUS323: Questions of ethics seem inextricably intertwined with business these days: Facebook and the Cambridge Analytica scandal, Wells Fargo, and Harvey Weinstein. The manager in today s workplace, whether they are in the private or public sector, needs to understand the ethical climate in which they are operating and navigate a path that allows them to acknowledge, understand, and act appropriately when faced with an ethical dilemma. This course will encourage you to prepare for the ethical challenges that you might face, through an exploration of ethical theory and the way in which personal values and ethical behaviors impact the culture of an organization. On completing this course, you will gain a greater understanding of how ethical principles relate to organizations within which they operate and how the perception of ethics can impact an organization in terms of reputation, functioning, and performance."
+            >
+              <p class="uni-course">BUS 323:</p>
+              <p class="uni-course-title">Business Ethics</p>
+              <p class="uni-sh">3sh</p>
+            </div>
+            <div
+              class="uni-course-list"
+              data-tooltip="BUS299: An online portfolio development experience that requires students to reflect on their past academic and professional experiences and use the information gained from this reflective exercise to develop learning statements related to the Associate of Applied Science in Administration/Management Studies degree outcomes. The learning statements must be supported by documented evidence that demonstrates that the outcomes have been met. Students learn how to develop an online portfolio during the first module of the course and then work under the guidance of a faculty mentor during the remainder of the semester to compose learning statements, compile appropriate evidence, and create the Integrated Business and Management Assessment report."
+            >
+              <p class="uni-course">BUS 299:</p>
+              <p class="uni-course-title">Business and Management Capstone</p>
+              <p class="uni-sh">3sh</p>
+            </div>
+            <div
+              class="uni-course-list"
+              data-tooltip="CCS120: Unavailable course information - discontinued"
+            >
+              <p class="uni-course">CCS 120:</p>
+              <p class="uni-course-title">Excelsior College Success Seminar</p>
+              <p class="uni-sh">3sh</p>
+            </div>
+            <div
+              class="uni-course-list"
+              data-tooltip="ENG202: Business Writing assists students in becoming confident, efficient business communicators. Students learn and apply strategies for designing and delivering effective workplace messages, both written and oral, that address audiences, purposes, and common business situations and problems. Using scenario- and case-based assignments, students analyze audience needs, define outcomes for their communication, and plan strategies for successfully achieving those outcomes. The course covers digital and routine communication forms, including reports, proposals, and presentations. Business Writing equips students with a range of tools to navigate today s business world successfully."
+            >
+              <p class="uni-course">ENG 202:</p>
+              <p class="uni-course-title">Business Writing</p>
+              <p class="uni-sh">3sh</p>
+            </div>
+            <div
+              class="uni-course-list"
+              data-tooltip="ENG101: This class provides students with foundational knowledge and skills to prepare them for academic and professional writing. By analyzing the work of other writers, students will learn to approach writing from a rhetorical and genre-based perspective. They will practice sentence- and paragraph-level writing, learning to revise and correct their own work. They will also work on finding, documenting, and effectively integrating sources into a research-based essay. Both traditional (textual) and multimodal (textual and visual) composition will be addressed."
+            >
+              <p class="uni-course">ENG 101:</p>
+              <p class="uni-course-title">English Composition I</p>
+              <p class="uni-sh">3sh</p>
+            </div>
+            <div
+              class="uni-course-list"
+              data-tooltip="GEOL108: This course will help you understand the relationship between human society and the Earth, as well as the technology used to analyze that relationship. Our course has three threads: Earth, as represented by the four natural spheres atmosphere, biosphere, hydrosphere, and lithosphere. Each of these spheres is addressed individually in modules in the course. Society, as represented through the effects of Earth processes on humans and society and the effects of the human existence on the physical nature of the Earth. Technology, which has greatly expanded in geoscience research. You will use these technologies in researching information related to your final project. These threads are tied together by our semester-long project that enables you to relate your studies directly to your community. Everyone will select a study area your hometown, your current location, or another area with which you are familiar and conduct a mini Natural Resources Inventory of the area as related to each of the four natural spheres. You will identify natural resources such as climate, waterways, land cover (forests, grasslands, etc.), and geologic hazards (sinkholes, landslides, volcanoes, etc.) specific to your study area. Then, you will assess the quality of the air and water, any degradation to the land cover, and any negative effects of geologic hazards. Finally, to complete the project, you will suggest mitigation strategies that you will present along with the resource identification and quality assessments in an audio/visual presentation."
+            >
+              <p class="uni-course">GEOL 108:</p>
+              <p class="uni-course-title">Earth Science and Society</p>
+              <p class="uni-sh">3sh</p>
+            </div>
+            <div
+              class="uni-course-list"
+              data-tooltip="HSC221: Have you ever wondered whether Americans are overweight, uniquely large relative to other populations in the world? Have you ever wanted to better understand your own eating habits and their causes and consequences? This course allows you to explore these questions and examine the personal and societal mechanisms underlying America's number one public health issue - the obesity epidemic. The course uses a social sciences lens to examine this public health crisis, and evaluates the individual and social factors that have resulted in the obesity epidemic. Students will explore why our nutritional needs no longer drive our dietary habits, and how this is exploited by the food industry. On an individual level, our appetites are stimulated by the highly addictive ingredients of sugar, fat, and salt that the food industry uses in low-priced products, while our food choices are often constrained by social and economic conditions. This results in a cycle of desire and consumption that ends with a nation of overeaters, both children and adults. Additionally, students evaluate societal factors influencing obesity, such as less emphasis on physical activity at school and at home, socioeconomic differences in diet and nutritional availability, the emergence of the internet and television as principal sources of entertainment etc. all of which lead to an increasingly sedentary modern American lifestyle. Using these analyses and information, students will identify and discuss solutions to fight back against the food industry and end overeating."
+            >
+              <p class="uni-course">HSC 221:</p>
+              <p class="uni-course-title">
+                Why We Overeat: Perspectives on Nutrition
+              </p>
+              <p class="uni-sh">3sh</p>
+            </div>
+            <div
+              class="uni-course-list"
+              data-tooltip="IT221: This course provides students with a fundamental knowledge of the computer system and its components, including computer hardware and architecture, application software, operating systems, networks, and the Internet. Advanced topics such as information privacy and security, database and data warehouse, data mining, and legal, ethical, and privacy issues in the information technology field will also be introduced in this course. Additionally, students will participate in learning activities to develop the needed skills to work with Microsoft Office suite."
+            >
+              <p class="uni-course">IT 221:</p>
+              <p class="uni-course-title">Introduction to Computers</p>
+              <p class="uni-sh">3sh</p>
+            </div>
+            <div
+              class="uni-course-list"
+              data-tooltip="LA498: A senior-level course designed for advanced students and working professionals who are seeking to tie it all together. The course applies social science theory to current events and reviews the theoretical foundations of the economic, political science, psychological and sociological disciplines. Students will engage and enhance critical thinking skills along with oral and written communication skills while reviewing and analyzing ethical questions and the concepts of diversity. Through a mixture of discussions, presentations and written analysis, students will review the major theories, organize and relate theoretical principles to real-world problems and gain experience with different modes of communication. You are required to use and to create Microsoft PowerPoint and Narrated Power Point functions. A headset and microphone is a required purchase for this course. "
+            >
+              <p class="uni-course">LA 498:</p>
+              <p class="uni-course-title">Social Science Capstone</p>
+              <p class="uni-sh">1sh</p>
+            </div>
+            <div
+              class="uni-course-list"
+              data-tooltip="LA496: Unavailable course information - discontiued"
+            >
+              <p class="uni-course">LA 496:</p>
+              <p class="uni-course-title">
+                Research and Writing in the Liberal Arts
+              </p>
+              <p class="uni-sh">1sh</p>
+            </div>
+            <div
+              class="uni-course-list"
+              data-tooltip="MA105: This course introduces algebraic concepts, probability, and statistics, with an emphasis on ways these concepts apply in everyday life. Course modules will contain a review of necessary algebraic concepts, and examples of their application to probability and statistics. Mastery of these concepts will prepare you to use and understand statistical concepts as they
+              appear in everyday life and many career fields and will lay the foundation for more advanced statistics courses. Note: MAT 105 is a preparatory course and does not satisfy the statistics core requirement for any degree program at Excelsior College."
+            >
+              <p class="uni-course">MA 105:</p>
+              <p class="uni-course-title">Essential Algebra and Statistics</p>
+              <p class="uni-sh">3sh</p>
+            </div>
+            <div
+              class="uni-course-list"
+              data-tooltip="MA101: Introduction to the statistical programming language R. The course will cover: reading and manipulating data; use of common data structures [vectors, matrices, arrays, lists]; basic graphical representations. Topics will include the important real-world applications of measurement units, managing money, statistics in the media, the mathematics of voting, and mathematics in the arts and nature. Providing correct solutions to routine problems is not the goal; more important is the ability to communicate effectively about mathematical reasoning and to solve realistic, practical problems both collaboratively with
+            other students and individually. It does not prepare a student for future courses that require a knowledge of algebra (e.g.
+            PreCalculus or Statistics)."
+            >
+              <p class="uni-course">MA 101:</p>
+              <p class="uni-course-title">Mathematics for Everyday Life</p>
+              <p class="uni-sh">3sh</p>
+            </div>
+            <div
+              class="uni-course-list"
+              data-tooltip="NS115: Welcome aboard the USS Kepler! During the next eight weeks, we will be exploring this big, beautiful universe of ours! The itinerary of our voyage allows, after a brief look at a few key physical principles and the history of their development, a look at the cosmos on an increasingly large scale. Our journey will begin with a detailed study of our solar system as well as a discussion of planetary systems around other stars that are being discovered almost daily. From there, we'll examine the nature of stars how they are born, live, and die, and how they constitute the fundamental building blocks of one of the most important cosmic structures, the galaxy. This study of galaxy formation and evolution will lead us into a brief exploration of the current research in cosmology, including the as-of-yet undiscovered nature of dark energy and dark matter. We've reserved you a seat aboard our shuttle, so let's prepare to launch!"
+            >
+              <p class="uni-course">NS 115:</p>
+              <p class="uni-course-title">Introduction to Astronomy</p>
+              <p class="uni-sh">3sh</p>
+            </div>
+            <div
+              class="uni-course-list"
+              data-tooltip="POL320: Energy consumption is the lifeblood of the US and global economy, yet we seldom investigate the costs involved in making a gallon of gas cheaper than a gallon of milk. When you fill up your tank, have you ever wondered where the fuel comes from or what it takes to make this necessary energy source so readily available? When you hear about costly wars or domestic strife in energy-rich regions like Russia or the Middle East, do you question how these might be related? Beyond the near constant power rivalry over energy, even alternative energy technologies, global climate change looms as an almost incalculable cost. In this course you develop a geopolitical lens onto energy and climate change by looking at powerful state, military and corporate actors, each pursuing its own, often conflicting, objectives. You examine how these actors influence energy geopolitics and climate change, such as in dealing with the security implications of increased sea levels, storm intensities, Arctic melt and drought. In this course you examine the political realities of energy today and the possibilities of different tomorrows."
+            >
+              <p class="uni-course">POL 320:</p>
+              <p class="uni-course-title">
+                The Geopolitics of Energy and Global Climate Change
+              </p>
+              <p class="uni-sh">3sh</p>
+            </div>
+            <div
+              class="uni-course-list"
+              data-tooltip="SOC465: Unavailable course information - Social Science degree discontinued."
+            >
+              <p class="uni-course">SOC 465:</p>
+              <p class="uni-course-title">Social Science Research</p>
+              <p class="uni-sh">3sh</p>
+            </div>
+            <div
+              class="uni-course-list"
+              data-tooltip="SOC421: Unavailable course information - Social Science degree discontinued."
+            >
+              <p class="uni-course">SOC 421:</p>
+              <p class="uni-course-title">Global Health</p>
+              <p class="uni-sh">3sh</p>
+            </div>
+            <div
+              class="uni-course-list"
+              data-tooltip="SOC420: Unavailable course information - Social Science degree discontinued."
+            >
+              <p class="uni-course">SOC 420:</p>
+              <p class="uni-course-title">
+                Environmental Policy and Management
+              </p>
+              <p class="uni-sh">3sh</p>
+            </div>
+            <div
+              class="uni-course-list"
+              data-tooltip="SOC350: Unavailable course information - Social Science degree discontinued."
+            >
+              <p class="uni-course">SOC 350:</p>
+              <p class="uni-course-title">Environmental Issues and Society</p>
+              <p class="uni-sh">3sh</p>
+            </div>
+            <div
+              class="uni-course-list"
+              data-tooltip="SOC342: Unavailable course information - Social Science degree discontinued."
+            >
+              <p class="uni-course">SOC 342:</p>
+              <p class="uni-course-title">
+                Homelessness: Society and Health Perspectives
+              </p>
+              <p class="uni-sh">3sh</p>
+            </div>
+            <div
+              class="uni-course-list"
+              data-tooltip="SOC319: Unavailable course information - Social Science degree discontinued."
+            >
+              <p class="uni-course">SOC 319:</p>
+              <p class="uni-course-title">
+                Understanding Society: The Theroies of Karl Markx, W.E.B. Du
+                Bois and others
+              </p>
+              <p class="uni-sh">3sh</p>
+            </div>
+            <div
+              class="uni-course-list"
+              data-tooltip="SOC110: Unavailable course information - Social Science degree discontinued."
+            >
+              <p class="uni-course">SOC 110:</p>
+              <p class="uni-course-title">
+                Introductions to Interdisciplinary Social Science
+              </p>
+              <p class="uni-sh">3sh</p>
+            </div>
+            <div
+              class="uni-course-list"
+              data-tooltip="Various training including leadership, communications, medical, language, etc military courses provided equivilant semester hour transfer. "
+            >
+              <p class="uni-course">Credit:</p>
+              <p class="uni-course-title">Military Service Equivilant</p>
+              <p class="uni-sh">57sh</p>
+            </div>
+          </div>
+          <!-- ////////////////////////////////////////////////////// -->
+          <!-- ////////////////////////////////////////////////////// -->
+
+          <button class="accordion">
+            <img
+              class="uni-logo uni-logo-white uni-mary"
+              src="img_icons/uni-maryland.png"
+              alt=""
+            />
+            Univeristy of Maryland
+            <span class="accordian-arrow"
+              ><ion-icon name="chevron-down-circle-outline"></ion-icon
+            ></span>
+          </button>
+          <div class="panel">
+            <div class="uni-course-list">
+              <h6 class="">General Studies</h6>
+              <h6 class="uni-sh">3.00 GPA</h6>
+            </div>
+            <div class="uni-course-list uni-timeline">
+              <p>1999-01 &#10148; 1999-05</p>
+              <p class="uni-sh">Total &#187; 1sh</p>
+            </div>
+            <div
+              class="uni-course-list"
+              data-tooltip="UCSP198: Unavailable course information - discontinued."
+            >
+              <p class="uni-course">UCSP 198</p>
+              <p class="uni-course-title">International Terrorism</p>
+              <p class="uni-sh">1sh</p>
+            </div>
+          </div>
+          <!-- ////////////////////////////////////////////////////// -->
+        </section>
+
+        <!-- COURSE WORK NAV BAR -->
+        <!-- COURSE WORK -->
+
+        <section>
+          <div class="ed-header">
+            <h1 class="section-header">Education</h1>
+          </div>
+
+          <!-- ABOUT -->
+          <div class="ed-about">
+            <div class="ed-left">
+              <h3 class="">About</h3>
+              <p class="ed-about-p">
+                All students leave with at least one or two portfolios, which
+                deprecate over time. View a shortened version what a grad school
+                portfolio includes.
+              </p>
+            </div>
+            <div class="ed-jumplink">
+              <h4 class="jump-header">Select a Topic</h4>
+              <div class="flex">
+                <a class="jumplink jump-ed-p" href="#capstone">Capstone</a>
+                <a class="jumplink jump-ed-p" href="#cartography"
+                  >Cartography</a
+                >
+                <a class="jumplink jump-ed-p" href="#database">Database</a>
+                <a class="jumplink jump-ed-p" href="#modeling">Modeling</a>
+                <a class="jumplink jump-ed-p" href="#programming"
+                  >Programming</a
+                >
+                <a class="jumplink jump-ed-p" href="#webgis">WebGIS</a>
+              </div>
+            </div>
+            <!-- END ABOUT  -->
+          </div>
+          <!-- CAPSTONE -->
+          <div class="capstone">
+            <h2 class="ed-header">Capstone</h2>
+            <h4 class="ed-subhead">
+              Automating field data and reporting for Ghana Disease Mitigation
+            </h4>
+            <h5 class="ed-text">Problem</h5>
+            <p class="ed-p">
+              Ghana, Africa, located near the equator, struggles to control
+              neglected tropical diseases (NTD) in rural areas. USAID teamed up
+              with the Ghana Ministry of Health to enhance the country's
+              treatment program by establishing a yearly mass drug
+              administration (MDA) since 2006. Since the initial distribution,
+              tracking has been through paper records, leading to accountability
+              issues in the number of people treated. FHI360, a Durham, North
+              Carolina company, was awarded USAID and Gates Foundation grants to
+              design, train, and implement a pilot program for electronic
+              tracking. FHI360 requested help automating a system that could
+              aggregate the field data and display it in a web application for
+              the Ghana health workers to track daily progress.
+            </p>
+            <h5 class="ed-text">Analysis Procedures</h5>
+            <p class="ed-p">
+              The raw data would be delivered nightly as a CSV file from the GPS
+              "Tally Counter" device. The data required identifying key
+              attributes representing a new contact point (home or road
+              intersection). Each subsequent person after that would represent
+              multiple people at that location, as the GPS device would mark
+              each person with a series of attributes. The data would require
+              aggregating each person to an area, collecting mean GPS
+              coordinates for the location, create new tables to represent
+              various statistics in a web application. Due to COVID restrictions
+              in Ghana, the testing was delayed, so I designed a script to
+              automate the incoming random data of the collectors. The following
+              script cleaned all the data and pushed it into tables, while the
+              final script pushed those CSV files to a PostgreSQL server.
+              Scripting is written with R, and Esri model builder created
+              geoprocesing tools embedded in the Esri web app builder (WAB) that
+              would allow Ghana health officials to export the information as
+              shape files for future needs. A secondary internal WAB displays
+              metrics for investors and USAID to monitor progress.
+            </p>
+            <h5 class="ed-text">Results</h5>
+            <p class="ed-p">
+              Beta testing ensures the data will be written from start to finish
+              and ready for field collectors to begin uploading collection data.
+              The web application does multiple operations, which will help
+              distribute and target more households for treatment. Queries allow
+              viewing of medication refusals or people not found. They can view
+              daily results or overall results. Pill icons help keep track of
+              total pharmacy numbers. Age, gender, and refusal locations help
+              workers create target campaigns to address community concerns. A
+              pattern analysis tool, not discussed yet, finds the hot spot
+              clusters of refusals, displays the directional tendency of
+              households, and creates a median location valid for support cells
+              in distribution. The project met all the end user requirements
+              with additional relevant and beneficial features to the project
+              partners.
+            </p>
+            <div class="flex center mt2">
+              <figure class="gallery-item img-ed">
+                <img
+                  class="img-ed"
+                  src="img_text_pages/capstone5_800_700.png"
+                  alt=""
+                />
+                <!-- Button to reset the Image size -->
+                <button onclick="resetImg()">Reset</button>
+              </figure>
+              <figure class="gallery-item img-ed">
+                <img class="" src="img_text_pages/capstone (1).png" alt="" />
+              </figure>
+              <figure class="gallery-item img-ed">
+                <img class="" src="img_text_pages/capstone (2).PNG" alt="" />
+              </figure>
+              <figure class="gallery-item img-ed">
+                <img
+                  class=""
+                  src="img_text_pages/capstone (3)1000_500.jpg"
+                  alt=""
+                />
+              </figure>
+              <figure class="gallery-item img-ed img-ed3">
+                <img
+                  class=""
+                  src="img_text_pages/capstone (4)800_700.png"
+                  alt=""
+                />
+              </figure>
+            </div>
+            <!-- END CAPSTONE -->
+          </div>
+          <!-- CARTOGREAPHY -->
+          <div id="cartography" class="capstone">
+            <h2 class="ed-header">Cartography</h2>
+            <h4 class="ed-subhead">About</h4>
+            <p class="ed-p">
+              Cartography is a discipline on its own, separate from geospatial
+              analytics. Analog maps in universities are often used just as a
+              way to show results. The Vietnam map was an Esri MOOC I found so
+              fun. I took it twice and put my military spin on it the second
+              time.
+            </p>
+
+            <h5 class="ed-text">Landscape</h5>
+            <div class="flex center mt2">
+              <figure class="gallery-item img-ed4">
+                <img
+                  class=""
+                  src="img_carto/landscape/assignment07_MAP04.jpg"
+                  alt=""
+                />
+              </figure>
+
+              <figure class="gallery-item img-ed4">
+                <img
+                  class=""
+                  src="img_carto/landscape/GIS595_NASA05.jpg"
+                  alt=""
+                />
+              </figure>
+              <figure class="gallery-item img-ed4">
+                <img
+                  class=""
+                  src="img_carto/landscape/Week13_Newton_LandCoverClassification.jpg"
+                  alt=""
+                />
+              </figure>
+              <figure class="gallery-item img-ed img-ed4">
+                <img
+                  class=""
+                  src="img_carto/landscape/tnewton2_map03a.jpg"
+                  alt=""
+                />
+              </figure>
+              <figure class="gallery-item img-ed img-ed4">
+                <img
+                  class=""
+                  src="img_carto/landscape/GIS341_Lab7_TravisNewton.jpg"
+                  alt=""
+                />
+              </figure>
+              <figure class="gallery-item img-ed img-ed4">
+                <img
+                  class=""
+                  src="img_carto/landscape/GIS510_midterm_layout.jpg"
+                  alt=""
+                />
+              </figure>
+              <figure class="gallery-item img-ed img-ed4">
+                <img
+                  class=""
+                  src="img_carto/landscape/GIS521_week05_map.jpg"
+                  alt=""
+                />
+              </figure>
+              <figure class="gallery-item img-ed img-ed4">
+                <img
+                  class=""
+                  src="img_carto/landscape/newton_t_project2_11_2000dpi.pdf.jpg"
+                  alt=""
+                />
+              </figure>
+            </div>
+            <h5 class="ed-text">Portrait</h5>
+            <div class="flex center mt2">
+              <figure class="gallery-item img-ed4">
+                <img
+                  class=""
+                  src="img_carto/portrait/GIS594_Newton_CrossIsland5.jpg"
+                  alt=""
+                />
+              </figure>
+              <figure class="gallery-item img-ed4">
+                <img
+                  class=""
+                  src="img_carto/portrait/GIS594_Newton_LostTrl3.jpg"
+                  alt=""
+                />
+              </figure>
+              <figure class="gallery-item img-ed4">
+                <img
+                  class=""
+                  src="img_carto/portrait/GIS594_Newton_WorldMap1.jpg"
+                  alt=""
+                />
+              </figure>
+              <figure class="gallery-item img-ed4">
+                <img
+                  class=""
+                  src="img_carto/portrait/GIS595_NASA03.jpg"
+                  alt=""
+                />
+              </figure>
+              <figure class="gallery-item img-ed4">
+                <img src="img_carto/portrait/GIS595_NASA04.jpg" alt="" />
+              </figure>
+              <figure class="gallery-item img-ed4">
+                <img
+                  class=""
+                  src="img_carto/portrait/newton_t_map1.jpg"
+                  alt=""
+                />
+              </figure>
+              <figure class="gallery-item img-ed4">
+                <img
+                  class=""
+                  src="img_carto/portrait/Newton_WaterFeatures_LG_Muir13.jpg"
+                  alt=""
+                />
+              </figure>
+              <figure class="gallery-item img-ed5">
+                <img
+                  class=""
+                  src="img_carto/portrait/VietnamBomingII_3.jpg"
+                  alt=""
+                />
+              </figure>
+            </div>
+            <!-- END CARTOGRAPHY -->
+          </div>
+          <!-- DATABASE -->
+          <div class="capstone">
+            <h2 id="database" class="ed-header">Database</h2>
+            <h4 class="ed-subhead">
+              ArcGIS Server and Geospatial Tools for the NPS
+            </h4>
+            <h5 class="ed-text">Problem</h5>
+            <p class="ed-p">
+              Stand up an Esri Server and create an Enterprise Database (SDE)
+              for the National Park Service (NPS) to allow versioning for
+              historic program changes to infrastructure and natural resources.
+              Once complete, create a geospatial tool and web app (WAB) to
+              display impacts on resources quickly.
+            </p>
+            <h5 class="ed-text">Analysis Procedures</h5>
+            <p class="ed-p">
+              GIS and IT departments working in tandem to use Windows Server
+              2016, deploying security certificates and software ArcGIS Desktop,
+              ArcServer Manager, Web Adapter, and PostgreSQL. Then, design the
+              relational database structure using an Entity-Relationship (ER)
+              Diagram, Lucid Charts, Unified Modeling Language (UML), and
+              Parse-Dia-SQL. Once the infrastructure is complete, use SQL to
+              read in CSV files to populate tables to create feature classes.
+              Post-data collection, a geoprocessing tool designed using the Esri
+              model builder, provided the WAB user functionality.
+            </p>
+            <h5 class="ed-text">Results</h5>
+            <p class="ed-p">
+              The design allowed me to create notional datasets of fish species
+              that could be routinely updated based on biologists' field
+              collection studies. The scientist then can report time series
+              changes using historical data sets. Scientists could quickly see
+              if any changes to the release of species would be impacted by
+              surrounding infrastructure.
+            </p>
+            <div class="flex center mt2">
+              <figure class="gallery-item img-ed">
+                <img
+                  class="img-ed"
+                  src="img_text_pages/database_design (1).jpg"
+                  alt=""
+                />
+              </figure>
+              <figure class="gallery-item img-ed">
+                <img
+                  class=""
+                  src="img_text_pages/database_design (5).PNG"
+                  alt=""
+                />
+              </figure>
+              <figure class="gallery-item img-ed">
+                <img
+                  class=""
+                  src="img_text_pages/database_design (2).PNG"
+                  alt=""
+                />
+              </figure>
+            </div>
+            <!-- END DATABASE -->
+          </div>
+          <!-- MODELING -->
+          <div class="capstone">
+            <h2 id="modeling" class="ed-header">Modeling</h2>
+            <h4 class="ed-subhead">Sea Rise Analysis in America Samoa</h4>
+            <h5 class="ed-text">Problem</h5>
+            <p class="ed-p">
+              The Pacific Ocean is home to dozens of low-lying countries.
+              America Samoa was chosen for its access to available NOAA LIDAR
+              datasets. The purpose was to understand the displacement of people
+              from their homes and the potential loss of farmland due to
+              salination.
+            </p>
+            <h5 class="ed-text">Analysis Procedures</h5>
+            <p class="ed-p">
+              I focused on the Pago Pago Bay area to see the impact on the
+              seaport, which is how the island receives most of its food source.
+              Census data at block and tract levels were aggregated to buildings
+              based on sqft to estimate the number of people per building. NAIP
+              rasters were used in farmland designation. Using Lidar and fishnet
+              grids, a tension spline modeled the sea height within the bay. A
+              15mm yearly sea rise published by the IPCC was used for decade
+              encroachment.
+            </p>
+            <h5 class="ed-text">Results</h5>
+            <p class="ed-p">
+              From 2021 to 2100, sea rise will not affect America Somoa. There
+              are 58 buildings (1.97% of structures) in Pago Pago Bay affected,
+              as most are built at higher elevations. Impacts on structures may
+              be reduced with seawalls or increased dredging. Farming land in
+              Pago Pago makes up only .677%, and the impacted land is .002%.
+              Agricultural land is located on the southwest side of the island,
+              where the topography is generally flat and at a greater distance.
+            </p>
+            <div class="flex center mt2">
+              <figure class="gallery-item img-ed">
+                <img
+                  class="img-ed"
+                  src="img_text_pages/Modeling01.png"
+                  alt=""
+                />
+              </figure>
+              <figure class="gallery-item img-ed">
+                <img class="" src="img_text_pages/Modeling02.jpg" alt="" />
+              </figure>
+              <figure class="gallery-item img-ed">
+                <img class="" src="img_text_pages/Modeling03.jpg" alt="" />
+              </figure>
+            </div>
+            <!-- END MODELING -->
+          </div>
+          <!-- PROGRAMMING -->
+          <div class="capstone">
+            <h2 id="programming" class="ed-header">Programming</h2>
+            <h4 class="ed-subhead">
+              North Carolina Landslide Causation from Rainfall
+            </h4>
+            <h5 class="ed-text">Problem</h5>
+            <p class="ed-p">
+              Western North Carolina is home to mountains, including the Great
+              Smokey Mountain National Park. Swain County, NC, experiences
+              greater landslides frequency from hurricanes, and large amounts of
+              data require cleaning to be geospatially compatible for analysis.
+            </p>
+            <h5 class="ed-text">Analysis Procedures</h5>
+            <p class="ed-p">
+              Taking a break from Python and Esri, I wanted to experience
+              open-source products for the Extract Transform Load (ETL) process
+              and analysis. I used R to connect and download landslide data from
+              NC-One Mapserver, clean it, and transform it into spatial
+              features. NOAA Rain gauge tabular data were imported and joined to
+              weather stations.
+            </p>
+            <h5 class="ed-text">Results</h5>
+            <p class="ed-p">
+              Once R coding prepared data, the maps were displayed in R ggplot,
+              ArcGIS Pro, and QGIS. Hydrology studies also created flood rasters
+              with ArcHydro, SAGA, and GRASS GIS toolbox plugins. Data files
+              were complete and ready for transfer to the NC landslide
+              department working with USDA and USGS. from the beach.
+            </p>
+            <div class="flex center mt2">
+              <figure class="gallery-item img-ed">
+                <img class="img-ed" src="img_text_pages/521 (1).PNG" alt="" />
+              </figure>
+              <figure class="gallery-item img-ed">
+                <img class="" src="img_text_pages/521 (2).png" alt="" />
+              </figure>
+              <figure class="gallery-item img-ed">
+                <img class="" src="img_text_pages/521 (3).png" alt="" />
+              </figure>
+            </div>
+            <!-- END PROGRAMMING -->
+          </div>
+          <!-- WEB GIS -->
+          <div class="capstone">
+            <h2 id="webgis" class="ed-header">Web GIS</h2>
+            <h4 class="ed-subhead">
+              Air and Ground collection using UAVs and WebAppbuilder
+            </h4>
+            <h5 class="ed-text">Problem</h5>
+            <p class="ed-p">
+              During segregation, historic black communities were built in
+              undesirable land plots such as Raleigh's 1954 southeast
+              neighborhood. Urban sprawl has now made this community prone to
+              flooding for years, and FEMA is ready to use a buyout program for
+              specific homes. At the same time, the state looks at preserving
+              the rest through landscape architecture techniques requiring GIS
+              collection and analysis.
+            </p>
+            <h5 class="ed-text">Analysis Procedures</h5>
+            <p class="ed-p">
+              Field assessment teams were split into riparian, greenway, and
+              cemetery locations to collect observations using ArcCollector.
+              Custom vector basemaps combined multiple features as aid
+              references, drastically improving load time. At the cemetery,
+              collectors collected grids, images, and plot numbers. Before
+              collection, I taught students UAV techniques, collected aerial
+              imagery for maps, and updated DEMs. New feature classes were built
+              from a collection that linked tabular information and renamed
+              images.
+            </p>
+            <h5 class="ed-text">Results</h5>
+            <p class="ed-p">
+              Students were able to design analysis studies and storymaps
+              showcasing landscape architecture techniques. I used the data to
+              generate R charts with ggplot embedded into Esri StoryMaps, along
+              with analysis from the DEM showing where the most damaged historic
+              grave sites are located. Our studies from NCSU resulted in the
+              City of Raleigh reversing a non-maintenance policy on private
+              lands.
+            </p>
+            <div class="flex center mt2 footer-spacer">
+              <figure class="gallery-item img-ed">
+                <img class="img-ed" src="img_text_pages/517 (1).PNG" alt="" />
+              </figure>
+              <figure class="gallery-item img-ed">
+                <img class="" src="img_text_pages/517 (2).jpg" alt="" />
+              </figure>
+              <figure class="gallery-item img-ed">
+                <img class="" src="img_text_pages/517 (4).jpg" alt="" />
+              </figure>
+            </div>
+            <!-- WEB GIS -->
+          </div>
+        </section>
+      </div>
+    </main>
+    <!-- FOOTER FOOTER FOOTER -->
+    <!-- FOOTER FOOTER FOOTER -->
+    <footer class="footer">
+      <div class="container grid grid--footer">
+        <div class="foot-col-1">
+          <h5 class="foot-title">About Portfolio</h5>
+          <p class="foot-p">
+            This website was built with pure HTML5, CSS, and Javascript. Second
+            version will update to Bootstrap5, nodeJS, and SASS. Future
+            upgraqdes will incorporate Leaflet and ChartJS. My portfolio was a
+            culmination of developer courses taken at Udemy.
+          </p>
+          <p class="copyright foot-p">
+            Copyright &copy; <span class="year">2024</span> by Travis Newton All
+            rights reserved.
+          </p>
+        </div>
+        <div class="foot-col-2">
+          <h5 class="foot-title">Links</h5>
+          <ul class="link-off">
+            <li>
+              GitHub:
+              <a class="link-color" href="https://github.com/tnewtonGIS"
+                ><strong>GIS GUY</strong> - <i>tnewtonGIS</i></a
+              >
+            </li>
+            <li>
+              Contact:
+              <a
+                class="link-color"
+                href="mailto:tnewton.gis@proton.me"
+                target="_blank"
+                ><strong>T.Newton</strong> <i>-Email</i></a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="foot-col-3">
+          <h5 class="foot-title">Site Visits</h5>
+          <div class="counter-flex">
+            <h6 class="count-title">Unique</h6>
+            <p class="count-number">5</p>
+          </div>
+          <div class="counter-flex">
+            <h6 class="count-title">Cumulative</h6>
+            <p class="count-number">10</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- JAVASCRIPT LINKS -->
+    <script src="js/script.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule=""
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"
+    ></script>
+    <script>
+      let btn = document.querySelector("#btnshrink");
+      let sidebar = document.querySelector(".sidebar");
+
+      btnshrink.onclick = function () {
+        sidebar.classList.toggle("active");
+      };
+    </script>
+
+    <script>
+      var acc = document.getElementsByClassName("accordion");
+      var i;
+
+      for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function () {
+          this.classList.toggle("active");
+          var panel = this.nextElementSibling;
+          if (panel.style.display === "block") {
+            panel.style.display = "none";
+          } else {
+            panel.style.display = "block";
+          }
+        });
+      }
+    </script>
+
+    <!-- script to set display property -->
+    <script>
+      img = document.getElementById("img1");
+      // Function to set image dimensions
+      function enlargeImg() {
+        img.style.width = "200%";
+        img.style.height = "auto";
+        img.style.transition = "width 0.5s ease";
+      }
+      // Function to reset image dimensions
+      function resetImg() {
+        img.style.width = "40%";
+        img.style.height = "auto";
+        img.style.transition = "width 0.5s ease";
+      }
+    </script>
+  </body>
+</html>

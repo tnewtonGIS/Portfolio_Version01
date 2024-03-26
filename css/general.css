@@ -1,0 +1,117 @@
+/* --------------- ----------------------------*/
+/* --------------- WEBSITE MAIN ---------------*/
+/* --------------- ----------------------------*/
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+  /* min-height: 100vh; */
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  overflow-x: hidden;
+  background-color: #1f2833;
+  color: #c5c6c7;
+}
+
+h1 {
+  font-size: 4.4rem;
+}
+h2 {
+  font-size: 3rem;
+}
+h3 {
+  font-size: 2.4rem;
+}
+h4 {
+  font-size: 1.6rem;
+}
+
+h5 {
+  font-size: 1.5rem;
+}
+h6 {
+  font-size: 1.2rem;
+}
+
+.container {
+  /* 1140px */
+  max-width: 120rem;
+  padding: 0 3.2rem;
+  margin: 0 auto;
+  /* height: 100vh; */
+}
+
+.container-section {
+  max-width: 140rem;
+  padding: 0 3.2rem;
+  margin: 0 auto;
+  /* height: 100vh; */
+}
+
+.grid {
+  display: grid;
+  column-gap: 6.4rem;
+  row-gap: 9.6rem;
+}
+
+.grid-sidebar {
+  display: grid;
+  row-gap: 2rem;
+  column-gap: 6.4rem;
+  grid-template-columns: 3fr 9fr;
+  margin-right: 6.4rem;
+}
+
+.footer-spacer {
+  margin-bottom: 6.8rem;
+}
+
+/* LINKS and BUTTONS */
+
+.link-off {
+  list-style: none;
+}
+.link-color {
+  color: #95b2e8;
+  text-decoration: none;
+}
+
+/* IMAGES  */
+.img-profile {
+  border-radius: 100%;
+  border: 0.3rem solid #66fcf1;
+}
+
+.bg-image {
+  min-height: 100vh;
+}
+
+.bg-image::before {
+  content: "";
+  background-repeat: repeat;
+  background: url("../img_background/white_contour.jpg");
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  opacity: 0.05;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.ed-thumb {
+  font-size: small;
+}

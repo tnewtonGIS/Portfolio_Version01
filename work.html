@@ -1,0 +1,972 @@
+<!-- ctrl + k  code comment -->
+<!-- ctrl + / code comment -->
+<!-- ctrl + shift + s save-->
+<!-- ctrl + shift + p open terminal search -->
+<!-- ctrl + shift + ` open command terminal -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- WEBSITE REQUIREMENT -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- WEBSITE META DESCRIPTION AND TOP WEB BAR DISPLAY -->
+    <meta
+      name="description"
+      content="My personnel GIS Portfolio by Travis Newton. Thank you for visiting. I designed and built this website to better understand front end UI/UX techniques."
+    />
+    <!-- for website icon in tab bar -->
+    <link rel="icon" href="img_icons/esrilogo.jpg" />
+    <link rel="apple-touch-icon" href="img_icons/esrilogo.jpg" />
+
+    <!-- FONTS -->
+    <!-- 3 x Fonts Title - Primary - Secondary -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600;700&family=Poppins:wght@300;400;600;700&family=Rubik+Maps&display=swap"
+      rel="stylesheet"
+    />
+    <!-- STLYESHEETS -->
+
+    <link rel="stylesheet" href="css/blog.css" />
+    <link rel="stylesheet" href="css/education.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/home.css" />
+    <link rel="stylesheet" href="css/jquery.css" />
+    <link rel="stylesheet" href="css/projects.css" />
+    <link rel="stylesheet" href="css/work.css" />
+
+    <!-- FUNCTIONALITY -->
+    <!-- lINE OUT FOR NOW -->
+    <!-- <link rel="apple-touch-icon" href="img/apple-touch-icon.png" />
+    <link rel="manifest" href="manifest.webmanifest" /> -->
+
+    <title>GIS Portfolio - Travis Newton</title>
+  </head>
+  <body>
+    <!-- NAVBAR NAVBAR NAVBAR -->
+    <header class="header">
+      <a href="#">
+        <img class="header-logo" src="img_icons/navbar_blue.png" alt="" />
+      </a>
+      <nav class="main-nav">
+        <ul class="main-nav-list">
+          <li><a class="main-nav-link" href="home.html">Home</a></li>
+          <li>
+            <a class="main-nav-link" href="education.html">Education</a>
+          </li>
+          <li>
+            <a class="main-nav-link nav-cta" href="work.html">Employment</a>
+          </li>
+          <li><a class="main-nav-link" href="projects.html">Projects</a></li>
+          <li><a class="main-nav-link" href="blog.html">Blog</a></li>
+        </ul>
+      </nav>
+      <button class="btn-mobile-nav">
+        <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+        <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+      </button>
+    </header>
+    <!-- SIDEBAR EDUCATION COURSES -->
+
+    <main>
+      <!-- SIDEBAR EDUCATION COURSES -->
+      <div class="grid-sidebar">
+        <section class="sidebar">
+          <!-- ////////////////////////////////////////////////////// -->
+          <div class="sidebar-top">
+            <img
+              class="img-profile img-profile--sidebar"
+              src="/img_travis_field/Linkden_pic.png"
+              alt="Self Potrait from Linkden"
+            />
+            <span class="sidebar-title">Employment History</span>
+            <ion-icon
+              class="sidebar-expand"
+              name="expand-outline"
+              id="btnshrink"
+            ></ion-icon>
+          </div>
+
+          <!-- NPS  -->
+          <div class="work-sidebar work-top-seperator">
+            <img class="work-logo2" src="img_icons/NPS_3.png" alt="" />
+            <h4>
+              <a class="jumplink" href="#nps">NPS - National Park Service </a>
+            </h4>
+          </div>
+          <div class="work-sub">
+            <p class="work-odd-text">Dates: 2023-05 &#10148; 2023-09</p>
+            <p class="work-even-text">Location: Luray, VA</p>
+            <p class="work-odd-text">Title: Park Ranger (General)</p>
+            <p class="work-even-text">Hours per Week: 40</p>
+            <p class="work-odd-text work-seperator">Salary Type: Hourly</p>
+          </div>
+          <!-- NPS -->
+          <!-- ESRI  -->
+          <div class="work-sidebar work-top-seperator">
+            <img class="work-logo2" src="img_icons/esri_logo.png" alt="" />
+            <h4>
+              <a class="jumplink" href="#esri"
+                >ESRI - Environmental Science Research Institute
+              </a>
+            </h4>
+          </div>
+          <div class="work-sub">
+            <p class="work-odd-text">Dates: 2021-05 &#10148; 2023-05</p>
+            <p class="work-even-text">Location: Vienna, VA</p>
+            <p class="work-odd-text">Title: Technical Consultant</p>
+            <p class="work-even-text">Hours per Week: 40</p>
+            <p class="work-odd-text work-seperator">Salary Type: Hourly</p>
+          </div>
+          <!-- ESRI -->
+          <!-- NASA  -->
+          <div class="work-sidebar work-top-seperator">
+            <img class="work-logo2" src="img_icons/NASA_logo.png" alt="" />
+            <h4>
+              <a class="jumplink" href="#nasa">
+                NASA - National Aeronautics and Space Administration</a
+              >
+            </h4>
+          </div>
+          <div class="work-sub">
+            <p class="work-odd-text">Dates: 2020-05 &#10148; 2020-08</p>
+            <p class="work-even-text">Location: Asheville, NC</p>
+            <p class="work-odd-text">Title: Remote Sensing Intern</p>
+            <p class="work-even-text">Hours per Week: 35</p>
+            <p class="work-odd-text work-seperator">
+              Salary Type: Student Stipend
+            </p>
+          </div>
+          <!-- NASA -->
+          <!-- BLOBAL TREK  -->
+          <div class="work-sidebar work-top-seperator">
+            <img class="work-logo2" src="img_icons/GlobalTrek_02.png" alt="" />
+            <h4>
+              <a class="jumplink" href="#gta"
+                >GTA - Global Treks and Adventures LLC
+              </a>
+            </h4>
+          </div>
+          <div class="work-sub">
+            <p class="work-odd-text">Dates: 2019-05 &#10148; 2019-08</p>
+            <p class="work-even-text">Location: Rarotonga, Cook Islands</p>
+            <p class="work-odd-text">Title: Tourism Mapping Intern</p>
+            <p class="work-even-text">Hours per Week: 40</p>
+            <p class="work-odd-text work-seperator">
+              Salary Type: Student Stipend
+            </p>
+          </div>
+          <!-- GLOBAL TREK -->
+          <!--  ARMY  -->
+          <div class="work-sidebar work-top-seperator">
+            <img class="work-logo2" src="img_icons/army1.png" alt="" />
+            <h4>
+              <a class="jumplink" href="#usa">USA - United States Army </a>
+            </h4>
+          </div>
+          <div class="work-sub">
+            <p class="work-odd-text">Dates: 1997-01 &#10148; 2017-02</p>
+            <p class="work-even-text">Location: Ft.Lewis, WA</p>
+            <p class="work-odd-text">Title: Senior Non-Commisioned Officer</p>
+            <p class="work-even-text">Hours per Week: 40+</p>
+            <p class="work-odd-text work-seperator">Salary Type: Yearly</p>
+          </div>
+          <!-- ARMY END -->
+        </section>
+        <section>
+          <div class="ed-header">
+            <h1 class="section-header">Employment</h1>
+          </div>
+          <!-- ABOUT -->
+          <div class="work-about">
+            <div class="work-left">
+              <h3 class="">The Path</h3>
+              <p class="job-p">
+                After a twenty-year military career, I took the plunge into
+                academia. Soon, I found my calling to combine my love of the
+                outdoors with a mapping career when I studied GIS. After years
+                of attending classes and living in a cubicle, I went for an
+                outdoor adventure as a park ranger. I'm now back to improving my
+                coding skills as I decide where life's next adventure takes me.
+                That might be to the outdoors, a return to GIS, or academia for
+                a Ph.D in Geospatial Analytics. In an ideal world, I can apply
+                my trades in a hybrid of field collection and GIS mapping.
+              </p>
+            </div>
+            <div class="work-right">
+              <h4 class="work-header">Navigate</h4>
+              <div class="flex-nav">
+                <a class="jumplink jump-p" href="#nps">NPS</a>
+                <a class="jumplink jump-p" href="#esri">ESRI</a>
+                <a class="jumplink jump-p" href="#nasa">NASA</a>
+                <a class="jumplink jump-p" href="#gta">GTA</a>
+                <a class="jumplink jump-p" href="#usa">USA</a>
+              </div>
+            </div>
+          </div>
+          <!-- END ABOUT  -->
+
+          <!-- NPS CARD -->
+          <div class="job-section">
+            <h2 class="job-header" id="nps">National Park Service</h2>
+            <div class="container-job">
+              <div class="flex-job">
+                <div class="work-img-grid">
+                  <img
+                    class="work-img2"
+                    src="img_travis_field/nps.jpg"
+                    alt=""
+                  />
+                  <div>
+                    <h6 class="center-gitem icon-header">Overall Ranking</h6>
+                    <div class="center-gstar">
+                      <ion-icon class="star-rate1" name="star"></ion-icon>
+                      <ion-icon class="star-rate1" name="star"></ion-icon>
+                      <ion-icon class="star-rate2" name="star"></ion-icon>
+                      <ion-icon class="star-rate2" name="star-half"></ion-icon>
+                      <ion-icon
+                        class="star-rate2"
+                        name="star-outline"
+                      ></ion-icon>
+                    </div>
+                  </div>
+                  <div>
+                    <h6 class="center-gitem icon-header">Return to Agency</h6>
+                    <div class="center-gcircle">
+                      <div class="circle-col">
+                        <ion-icon
+                          class="circle-rate1"
+                          name="ellipse-outline"
+                        ></ion-icon>
+                        <p>No</p>
+                      </div>
+                      <div class="circle-col">
+                        <ion-icon
+                          class="circle-rate2"
+                          name="checkmark-circle"
+                        ></ion-icon>
+                        <p>Maybe</p>
+                      </div>
+                      <div class="circle-col">
+                        <ion-icon
+                          class="circle-rate1"
+                          name="ellipse-outline"
+                        ></ion-icon>
+                        <p>Yes</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="flex-col">
+                  <h4 class="job-sub-header">About</h4>
+                  <p class="job-p-sub">
+                    Serve as a member of a highly functioning team of Rangers
+                    alongside fellow General Rangers, Protection Rangers, other
+                    park staff, personnel from cooperating agencies, and
+                    volunteers. Use computers to communicate electronically; use
+                    radios to communicate daily. Conduct patrols throughout the
+                    park's backcountry trail network on foot and throughout the
+                    park's front country and fire roads via motor vehicle.
+                    Educate Park visitors about a variety of subjects, including
+                    recreational opportunities, natural and cultural history of
+                    the park and its resources, hazards and how to avoid them,
+                    backcountry safety, preparedness, safe hiking, and what to
+                    do in the case of an emergency while on patrol and while
+                    staged at busy trailheads. Deliver Preventative Search and
+                    Rescue (PSAR) messaging to visitors. Communicate in-person
+                    via impromptu contacts, as well as via informal and
+                    semi-formal presentations. Respond to emergency medical
+                    calls as an EMT, such as motor vehicle crashes, litter
+                    carryout rescues, helicopter rescues; drive the park
+                    ambulance (if trained); conduct hasty ground search
+                    operations; conduct visitor assists, such as lockouts, jump
+                    starts, and courtesy transports. Assist with managing
+                    Division equipment, such as rescue gear, medical supplies,
+                    office equipment, etc.; and facilities to include an
+                    ambulance bay, equipment caches, the park ambulance, and
+                    patrol vehicles.
+                  </p>
+                  <h4 class="job-sub-header">Key Tasks</h4>
+                  <ul class="key-task">
+                    <li class="job-p-sub">
+                      Daily backcountry patrols to check trail conditions.
+                    </li>
+                    <li class="job-p-sub">
+                      Provide education using the PREPARE methodology coupled
+                      with the Ten Essentials.
+                    </li>
+                    <li class="job-p-sub">
+                      Respond to lost and injured hikers to lead or carry
+                      individuals to safety.
+                    </li>
+                    <li class="job-p-sub">
+                      Assist law enforcement with traffic accidents and storm
+                      damage throughout the park.
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div>
+                <h4 class="job-sub-header pro-con-head">Pros and Cons</h4>
+                <div class="grid-pro-con">
+                  <div class="pro-con">
+                    <h6 class="job-sub-header2">Pros</h6>
+                    <p class="job-p-sub">
+                      A bad rainy hurricane day in a National Park is better
+                      than a good day in a cubicle. Shenandoah's proximity to
+                      D.C. allows you to meet a wide range of high-level
+                      corporate leaders and senior executives, down to a
+                      plumber. Knowing the trail condition makes a huge
+                      difference in directing people to hikes more suited to a
+                      person's abilities. The Preventative piece of SAR, done
+                      correctly, can save parks hundreds of thousands of dollars
+                      in future recovery costs. You can buy yourself an
+                      Airstream and live in the park, listening to birds
+                      chirping and deer outside your door daily.
+                    </p>
+                  </div>
+                  <div class="pro-con">
+                    <h6 class="job-sub-header2">Cons</h6>
+                    <p class="job-p-sub">
+                      If you are an introvert, PSAR is not a job for you. Being
+                      a people person is imperative to delivering the PSAR
+                      message. Since no national PSAR standard exists, every
+                      park may or may not have health physicals or fitness
+                      standards, significantly impacting a ranger's capability.
+                      DOI agencies are like businesses. Some agencies sell
+                      mineral, timber, grazing rights, or electrical power. The
+                      Park Service sells enjoyment, which generates a small
+                      budget. NPS must adhere to the Historic Preservation Act
+                      for all buildings resulting in minimal to no
+                      modifications. The low GS/WG payscale and seasonal months
+                      make these jobs only sustainable for retired and college
+                      students.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- NPS CARD -->
+
+          <!-- ESRI CARD -->
+          <div class="job-section">
+            <h2 class="job-header" id="esri">
+              Environmental Science Research Institue
+            </h2>
+            <div class="container-job">
+              <div class="flex-job">
+                <div class="work-img-grid">
+                  <img
+                    class="work-img2"
+                    src="img_travis_field/esri.jpeg"
+                    alt=""
+                  />
+                  <div>
+                    <h6 class="center-gitem icon-header">Overall Ranking</h6>
+                    <div class="center-gstar">
+                      <ion-icon class="star-rate1" name="star"></ion-icon>
+                      <ion-icon class="star-rate1" name="star"></ion-icon>
+                      <ion-icon class="star-rate1" name="star"></ion-icon>
+                      <ion-icon class="star-rate1" name="star"></ion-icon>
+                      <ion-icon class="star-rate2" name="star-half"></ion-icon>
+                    </div>
+                  </div>
+                  <div>
+                    <h6 class="center-gitem icon-header">Return to Agency</h6>
+                    <div class="center-gcircle">
+                      <div class="circle-col">
+                        <ion-icon
+                          class="circle-rate1"
+                          name="ellipse-outline"
+                        ></ion-icon>
+                        <p>No</p>
+                      </div>
+                      <div class="circle-col">
+                        <ion-icon
+                          class="circle-rate1"
+                          name="ellipse-outline"
+                        ></ion-icon>
+                        <p>Maybe</p>
+                      </div>
+                      <div class="circle-col">
+                        <ion-icon
+                          class="circle-rate2"
+                          name="checkmark-circle"
+                        ></ion-icon>
+                        <p>Yes</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="flex-col">
+                  <h4 class="job-sub-header">About</h4>
+                  <p class="job-p-sub">
+                    Technical Consultants in Esri's Professional Services
+                    Division play a crucial role in the innovation and
+                    implementation of ArcGIS enterprise technology. As a
+                    Technical Consultant, I provided vision and leadership while
+                    promoting the use of Esri technology to enable customer
+                    success. We impact the development and growth of Esri
+                    technology into new domains by working closely with industry
+                    experts throughout the company. Evaluate customer
+                    requirements to decide the proper analysis tools for the
+                    problem. User needs include but are not limited to
+                    installing and configuring applications, automating
+                    workflows with model builder, writing custom Python or R
+                    scripts, designing GIS curricula and workshops, and
+                    supporting customer engagements at conferences. My federal
+                    customers include ASPRS, BIA, DOJ, FEMA, HHS OIG, IHS, and
+                    VHA. At the state level, I support a combination of
+                    Emergency Management offices, Police Departments, and
+                    Departments of Public Health for the states of Florida,
+                    Georgia, Maryland, Massachusetts, Oregon, and Virginia.
+                    Configuration work revolves around the Esri technologies
+                    suite of AGOL, ArcGIS Pro, Enterprise, Experience Builder,
+                    Fieldmaps, Portal, Sites/Hub, StoryMaps, Survey123, and
+                    Connect, Tracker, and Web Application Builder.
+                  </p>
+                  <h4 class="job-sub-header">Key Tasks</h4>
+                  <ul class="key-task">
+                    <li class="job-p-sub">
+                      Establish customer relations and collaborate desires to
+                      meet GIS needs.
+                    </li>
+                    <li class="job-p-sub">
+                      Design, research, implement, and maintain
+                      geo-applications.
+                    </li>
+                    <li class="job-p-sub">
+                      Programming and scripting complex desktop and web
+                      geospatial tools.
+                    </li>
+                    <li class="job-p-sub">
+                      Prepare technical documents and GIS courses for a
+                      non-technical audience.
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div>
+                <h4 class="job-sub-header pro-con-head">Pros and Cons</h4>
+                <div class="grid-pro-con">
+                  <div class="pro-con">
+                    <h6 class="job-sub-header2">Pros</h6>
+                    <p class="job-p-sub">
+                      You will not find a more concentrated workforce of
+                      professional geo-centric scientists who are passionate
+                      about everything maps. The exposure to all of Esri's
+                      products, internal courses, and inside knowledge are
+                      shared to make you a professional in your area of focus.
+                      You will never be saddled with external distractions from
+                      creating maps and apps. You jump from one project to the
+                      next, taking the skills learned to make a better product
+                      for the next customer. Every position and team is
+                      different at Esri, but I was fortunate to have awesome
+                      bosses and colleagues with whom I could collaborate
+                      remotely and in the office. To sum Esri up, it's the
+                      `mappiest` place on earth.
+                    </p>
+                  </div>
+                  <div class="pro-con">
+                    <h6 class="job-sub-header2">Cons</h6>
+                    <p class="job-p-sub">
+                      All Esri offices are in high-cost-of-living cities, so you
+                      need to do a cost analysis to see if the juice is worth
+                      the squeeze. While Esri does have conferences, you have to
+                      work at Esri for a while before you can attend, even if
+                      the conference is within driving distance. Before covid,
+                      Esri employees would work with on-site customers to teach
+                      or establish GIS systems. Post covid, government agencies
+                      and civilian companies moved to remote conference. Can you
+                      handle a four-walled cubicle for the rest of your life?
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Esri CARD -->
+          <!-- NASA CARD -->
+          <div class="job-section">
+            <h2 class="job-header" id="nasa">
+              National Aeronautics and Space Administration
+            </h2>
+            <div class="container-job">
+              <div class="flex-job">
+                <div class="work-img-grid">
+                  <img
+                    class="work-img2"
+                    src="img_travis_field/IMG_0301_reduced.jpg"
+                    alt=""
+                  />
+                  <div>
+                    <h6 class="center-gitem icon-header">Overall Ranking</h6>
+                    <div class="center-gstar">
+                      <ion-icon class="star-rate1" name="star"></ion-icon>
+                      <ion-icon class="star-rate1" name="star"></ion-icon>
+                      <ion-icon class="star-rate2" name="star"></ion-icon>
+                      <ion-icon
+                        class="star-rate2"
+                        name="star-outline"
+                      ></ion-icon>
+                      <ion-icon
+                        class="star-rate2"
+                        name="star-outline"
+                      ></ion-icon>
+                    </div>
+                  </div>
+                  <div>
+                    <h6 class="center-gitem icon-header">Return to Agency</h6>
+                    <div class="center-gcircle">
+                      <div class="circle-col">
+                        <ion-icon
+                          class="circle-rate1"
+                          name="ellipse-outline"
+                        ></ion-icon>
+                        <p>No</p>
+                      </div>
+                      <div class="circle-col">
+                        <ion-icon
+                          class="circle-rate2"
+                          name="checkmark-circle"
+                        ></ion-icon>
+                        <p>Maybe</p>
+                      </div>
+                      <div class="circle-col">
+                        <ion-icon
+                          class="circle-rate1"
+                          name="ellipse-outline"
+                        ></ion-icon>
+                        <p>Yes</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="flex-col">
+                  <h4 class="job-sub-header">About</h4>
+                  <p class="job-p-sub">
+                    As part of NASA’s Applied Sciences Program, DEVELOP
+                    addresses environmental and policy concerns by practically
+                    applying NASA Earth observations. DEVELOP projects apply
+                    Earth observations to the application areas of Agriculture,
+                    Disasters, Ecological Forecasting, Energy, Health and Air
+                    Quality, Transportation and infrastructure, urban
+                    development, and Water Resources. These projects highlight
+                    NASA Earth observation capabilities relative to
+                    environmental issues and concerns for enhanced policy and
+                    decision-making to improve life here on Earth. Our
+                    development team integrated Google Earth Image Landsat7 and
+                    Sentinel imagery with Esri Model Builder to determine winter
+                    decline signals over twenty years across four states. The
+                    team concentrated on Hemlock detection as these evergreen
+                    species are more fire resilient and improve stream quality.
+                    Our team successfully developed models to find hemlock
+                    locations and delivered training tutorials to allow the
+                    Eastern Band of Cherokee Indians to expand their GIS program
+                    and enhance their cultural awareness programs.
+                  </p>
+                  <h4 class="job-sub-header">Key Tasks</h4>
+                  <ul class="key-task">
+                    <li class="job-p-sub">
+                      Meet with stakeholders to discover research topics
+                      beneficial to the tribe.
+                    </li>
+                    <li class="job-p-sub">
+                      Research and collect historical raster and vector data for
+                      time series analysis.
+                    </li>
+                    <li class="job-p-sub">
+                      Create GIS models to transform, extract, transform, and
+                      load (ETL) to begin machine learning detection of tree
+                      species.
+                    </li>
+                    <li class="job-p-sub">
+                      Create technical documentation and prepare briefings for
+                      natural resources and NASA teams.
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div>
+                <h4 class="job-sub-header pro-con-head">Pros and Cons</h4>
+                <div class="grid-pro-con">
+                  <div class="pro-con">
+                    <h6 class="job-sub-header2">Pros</h6>
+                    <p class="job-p-sub">
+                      NASA DEVELOP is a paid internship that allows students to
+                      collaborate with mentors who are federal scientists at the
+                      Ph.D. level. Our excellent mentors provided thoughtful
+                      ideas for directing our research and working with student
+                      scientists and tribal members to research real-world
+                      problems. You get a NASA stamp on your resume.
+                    </p>
+                  </div>
+                  <div class="pro-con">
+                    <h6 class="job-sub-header2">Cons</h6>
+                    <p class="job-p-sub">
+                      My cons are the circumstances resulting from covid. All
+                      2020 teams were moved to remote work at the last minute
+                      and did not experience in-person collaboration. The
+                      two-day live training in R programming that we received as
+                      part of the program came so fast and furious it provided
+                      no value. If you already have an extensive programming
+                      language or know R, then this training can be applied to
+                      your research. Would I do this again remotely? Then NO; if
+                      I did it in person, then YES.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- NASA CARD -->
+
+          <!-- GLOBAL TREK CARD -->
+          <div class="job-section">
+            <h2 class="job-header" id="gta">Global Treks and Adventures</h2>
+            <div class="container-job">
+              <div class="flex-job">
+                <div class="work-img-grid">
+                  <img
+                    class="work-img2"
+                    src="img_travis_field/globaltrek.jpg"
+                    alt=""
+                  />
+                  <div>
+                    <h6 class="center-gitem icon-header">Overall Ranking</h6>
+                    <div class="center-gstar">
+                      <ion-icon class="star-rate1" name="star"></ion-icon>
+                      <ion-icon class="star-rate1" name="star"></ion-icon>
+                      <ion-icon class="star-rate2" name="star"></ion-icon>
+                      <ion-icon class="star-rate1" name="star"></ion-icon>
+                      <ion-icon class="star-rate1" name="star"></ion-icon>
+                    </div>
+                  </div>
+                  <div>
+                    <h6 class="center-gitem icon-header">Return to Agency</h6>
+                    <div class="center-gcircle">
+                      <div class="circle-col">
+                        <ion-icon
+                          class="circle-rate1"
+                          name="ellipse-outline"
+                        ></ion-icon>
+                        <p>No</p>
+                      </div>
+                      <div class="circle-col">
+                        <ion-icon
+                          class="circle-rate1"
+                          name="ellipse-outline"
+                        ></ion-icon>
+                        <p>Maybe</p>
+                      </div>
+                      <div class="circle-col">
+                        <ion-icon
+                          class="circle-rate2"
+                          name="checkmark-circle"
+                        ></ion-icon>
+                        <p>Yes</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="flex-col">
+                  <h4 class="job-sub-header">About</h4>
+                  <p class="job-p-sub">
+                    The mission of Global Treks focuses on experiential
+                    education opportunities for students wishing to expand their
+                    learning outside of the classroom. The Global Treks
+                    Internship Program was launched to provide students with a 3
+                    ½ month experience combining action research, field data
+                    collection, and concluding with the publication writing
+                    process. The internship opportunity connects each student's
+                    academic journey to a research project for publication. All
+                    research collected is professionally written and published
+                    in a cultural guide or field guide to a remote part of the
+                    world. The 2019 Rarotonga Expedition land trek continues to
+                    build sustainable relationships with diverse communities
+                    around the island. As the sole Geospatial Intern
+                    representative, you are responsible for items related to
+                    collection, interpretation, analysis, and product delivery
+                    to publication. You will also be assigned additional duties
+                    for UAV imagery and video collection for short movie clips.
+                    Devise a way to map lagoon imagery with or without GRS
+                    panels accurately. You must ensure QA/QC standards match
+                    Cook Island collection data to the correct grid coordinate
+                    reference and projection systems while representing
+                    spatially accurate 3d enhanced imagery and contour profiles.
+                  </p>
+                  <h4 class="job-sub-header">Key Tasks</h4>
+                  <ul class="key-task">
+                    <li class="job-p-sub">
+                      Collect trail tracks with multiple GPS units and important
+                      plot island features such as water points and bus stops
+                    </li>
+                    <li class="job-p-sub">
+                      Aerial flight to collect, and produce raster coastal
+                      imagery
+                    </li>
+                    <li class="job-p-sub">
+                      Research and collect NZ raster DEM and SHP files for map
+                      information
+                    </li>
+                    <li class="job-p-sub">
+                      Produce printable maps, gdb files, and book-ready map
+                      layouts.
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div>
+                <h4 class="job-sub-header pro-con-head">Pros and Cons</h4>
+                <div class="grid-pro-con">
+                  <div class="pro-con">
+                    <h6 class="job-sub-header2">Pros</h6>
+                    <p class="job-p-sub">
+                      You're visiting a tropical paradise, hiking, snorkeling,
+                      and scuba diving, and exploring the country. Then, apply
+                      your education specialty to production products. Great
+                      food and friendly islanders are welcoming. I recommend
+                      arriving early to take the scooter driver's license, which
+                      allows for pre/post data collection as you may need more
+                      time (also a great collector item).
+                    </p>
+                  </div>
+                  <div class="pro-con">
+                    <h6 class="job-sub-header2">Cons</h6>
+                    <p class="job-p-sub">
+                      GTA is an unpaid internship. You pay the cost, but
+                      remember that this is a working vacation. Some people pay
+                      for ecotourism, but here, you get to work with a team of
+                      like-minded individuals publishing a book. If you need
+                      more funds for a GTA internship, talk with your professors
+                      and see if there is any department money to help.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- GLOBAL TREK CARD -->
+
+          <!-- USA TREK CARD -->
+          <div class="job-section job-final">
+            <h2 class="job-header" id="usa">United States Army</h2>
+            <div class="container-job">
+              <div class="flex-job">
+                <div class="work-img-grid">
+                  <img
+                    class="work-img2"
+                    src="img_travis_field/hohnfels 99.JPG"
+                    alt=""
+                  />
+                  <div>
+                    <h6 class="center-gitem icon-header">Overall Ranking</h6>
+                    <div class="center-gstar">
+                      <ion-icon class="star-rate1" name="star"></ion-icon>
+                      <ion-icon class="star-rate1" name="star"></ion-icon>
+                      <ion-icon class="star-rate2" name="star"></ion-icon>
+                      <ion-icon class="star-rate1" name="star"></ion-icon>
+                      <ion-icon class="star-rate1" name="star"></ion-icon>
+                    </div>
+                  </div>
+                  <div>
+                    <h6 class="center-gitem icon-header">Return to Agency</h6>
+                    <div class="center-gcircle">
+                      <div class="circle-col">
+                        <ion-icon
+                          class="circle-rate1"
+                          name="ellipse-outline"
+                        ></ion-icon>
+                        <p>No</p>
+                      </div>
+                      <div class="circle-col">
+                        <ion-icon
+                          class="circle-rate1"
+                          name="ellipse-outline"
+                        ></ion-icon>
+                        <p>Maybe</p>
+                      </div>
+                      <div class="circle-col">
+                        <ion-icon
+                          class="circle-rate2"
+                          name="checkmark-circle"
+                        ></ion-icon>
+                        <p>Yes</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="flex-col">
+                  <h4 class="job-sub-header">About</h4>
+                  <p class="job-p-sub">
+                    As the largest United States military branch, we defend our
+                    nation's freedom and safety and provide stability during
+                    challenging times. Freedom has been a focus since 1775, when
+                    the Army's fight for independence began. Today, the Army
+                    honors a legacy of freedom and leads by example with core
+                    values that every Soldier lives by. As a soldier, I trained
+                    in various military-related tasks, including administrative,
+                    combat, communications, humanitarian functions, leadership,
+                    medical, peacekeeping duties, and teaching forces around the
+                    globe. While serving as a soldier, I lived the Army's core
+                    values of Loyalty, Duty, Respect, Selfless Service, Honor,
+                    Integrity, and Personal Courage. Today, the Army employs
+                    over 450,000 active duty soldiers, ready to protect America.
+                  </p>
+                  <h4 class="job-sub-header">Key Tasks</h4>
+                  <ul class="key-task">
+                    <li class="job-p-sub">
+                      Reads, interprets, and employs maps for GEOINT operations
+                    </li>
+                    <li class="job-p-sub">
+                      Leads by, with, and through military forces as an advisor
+                    </li>
+                    <li class="job-p-sub">
+                      Establishes communication arrays to meet mission
+                      requirements and provides secondary medical triage
+                    </li>
+                    <li class="job-p-sub">
+                      Prepares excellent MRE rations and combat-ready canteen
+                      cups to improve soldier moral
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div>
+                <h4 class="job-sub-header pro-con-head">Pros and Cons</h4>
+                <div class="grid-pro-con">
+                  <div class="pro-con">
+                    <h6 class="job-sub-header2">Pros</h6>
+                    <p class="job-p-sub">
+                      No matter what military occupation you choose, rest
+                      assured that there is no better job or career for today's
+                      youth. Acedmia is not for everyone straight out of high
+                      school. The Army gives you a chance to grow up, learn new
+                      skills, receive a pay check, free room-board and food, and
+                      a paid four-year college education once you leave. You get
+                      a chance to leave your small town to see the world. Those
+                      who are doing short-term work also leave now with a 401k
+                      equivalent in lieu of having to serve 20 years for a
+                      pension. If you stay to retirement, Tricare and Veteran
+                      Health Administration will see to your healthcare for
+                      life.
+                    </p>
+                  </div>
+                  <div class="pro-con">
+                    <h6 class="job-sub-header2">Cons</h6>
+                    <p class="job-p-sub">
+                      Given the American youth's culture today, the military can
+                      be physically and emotionally challenging. However, the
+                      Army of 2020s is a more intellectual force vs. a physical
+                      Army. The days of
+                      <a
+                        class="link-out"
+                        href="https://www.youtube.com/watch?v=30JFhmG3TrM"
+                        target="_blank"
+                        >Billy Waugh</a
+                      >
+                      or
+                      <a
+                        class="link-out"
+                        href="https://www.youtube.com/watch?v=g9W5OjQK_4c"
+                        target="_blank"
+                        >Mad Dog Shirver</a
+                      >
+                      are long gone. Soldiers are expected to behave in a "Boy
+                      Scout" manner with almost a zero-tolerance policy for
+                      misconduct. The policy is an ongoing national security
+                      issue, as roughneck men 'play hard - work hard,' combined
+                      with men already disqualified by health problems or mental
+                      health issues, have limited eligible recruits. Those
+                      looking for a stable family life will often be interrupted
+                      by deployments in various lengths. Plan to miss many
+                      birthdays and holidays at the cost of the greater good.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- USA CARD -->
+        </section>
+      </div>
+    </main>
+    <!-- FOOTER FOOTER FOOTER -->
+    <footer class="footer">
+      <div class="container grid grid--footer">
+        <div class="foot-col-1">
+          <h5 class="foot-title">About Portfolio</h5>
+          <p class="foot-p">
+            This website was built with pure HTML5, CSS, and Javascript.
+            Previous versions included Bootstrap5, nodeJS, and SASS. Future
+            upgraqdes will incorporate Leaflet and ChartJS. My portfolio was a
+            culmination of developer courses taken at Udemy.
+          </p>
+          <p class="copyright foot-p">
+            Copyright &copy; <span class="year">2024</span> by Travis Newton All
+            rights reserved.
+          </p>
+        </div>
+        <div class="foot-col-2">
+          <h5 class="foot-title">Links</h5>
+          <ul class="link-off">
+            <li>
+              GitHub:
+              <a class="link-color" href="https://github.com/tnewtonGIS"
+                ><strong>GIS GUY</strong> - <i>tnewtonGIS</i></a
+              >
+            </li>
+            <li>
+              Contact:
+              <a
+                class="link-color"
+                href="mailto:tnewton.gis@proton.me"
+                target="_blank"
+                ><strong>T.Newton</strong> <i>-Email</i></a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="foot-col-3">
+          <h5 class="foot-title">Site Visits</h5>
+          <div class="counter-flex">
+            <h6 class="count-title">Unique</h6>
+            <p class="count-number">5</p>
+          </div>
+          <div class="counter-flex">
+            <h6 class="count-title">Cumulative</h6>
+            <p class="count-number">10</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- JAVASCRIPT LINKS -->
+    <script src="js/script.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!-- <script src="js/darkmodetoggle.js"></script> -->
+    <script src="js/lightbox-plus-jquery.min.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule=""
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"
+    ></script>
+    <script
+      defer
+      src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"
+    ></script>
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+    <script
+      src="https://kit.fontawesome.com/a076d05399.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

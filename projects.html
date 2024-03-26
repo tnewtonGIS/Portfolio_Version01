@@ -1,0 +1,494 @@
+<!-- ctrl + k  code comment -->
+<!-- ctrl + / code comment -->
+<!-- ctrl + shift + s save-->
+<!-- ctrl + shift + p open terminal search -->
+<!-- ctrl + shift + ` open command terminal -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- WEBSITE REQUIREMENT -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- WEBSITE META DESCRIPTION AND TOP WEB BAR DISPLAY -->
+    <meta
+      name="description"
+      content="My personnel GIS Portfolio by Travis Newton. Thank you for visiting. I designed and built this website to better understand front end UI/UX techniques."
+    />
+    <!-- for website icon in tab bar -->
+    <link rel="icon" href="img_icons/esrilogo.jpg" />
+    <link rel="apple-touch-icon" href="img_icons/esrilogo.jpg" />
+
+    <!-- FONTS -->
+    <!-- 3 x Fonts Title - Primary - Secondary -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600;700&family=Poppins:wght@300;400;600;700&family=Rubik+Maps&display=swap"
+      rel="stylesheet"
+    />
+    <!-- STLYESHEETS -->
+    <link rel="stylesheet" href="css/blog.css" />
+    <link rel="stylesheet" href="css/education.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/home.css" />
+    <link rel="stylesheet" href="css/jquery.css" />
+    <link rel="stylesheet" href="css/projects.css" />
+    <link rel="stylesheet" href="css/work.css" />
+    <!-- ICONS -->
+    <link rel="icon" href="images/favicon.png" />
+    <!-- FUNCTIONALITY -->
+    <!-- lINE OUT FOR NOW -->
+    <!-- <link rel="apple-touch-icon" href="img/apple-touch-icon.png" />
+    <link rel="manifest" href="manifest.webmanifest" /> -->
+
+    <title>GIS Portfolio - Travis Newton</title>
+  </head>
+  <body>
+    <!-- NAVBAR NAVBAR NAVBAR -->
+    <header class="header">
+      <a href="#">
+        <img class="header-logo" src="img_icons/navbar_blue.png" alt="" />
+      </a>
+      <nav class="main-nav">
+        <ul class="main-nav-list">
+          <li><a class="main-nav-link" href="home.html">Home</a></li>
+          <li>
+            <a class="main-nav-link" href="education.html">Education</a>
+          </li>
+          <li><a class="main-nav-link" href="work.html">Employment</a></li>
+          <li>
+            <a class="main-nav-link nav-cta" href="projects.html">Projects</a>
+          </li>
+          <li><a class="main-nav-link" href="blog.html">Blog</a></li>
+        </ul>
+      </nav>
+      <button class="btn-mobile-nav">
+        <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+        <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+      </button>
+    </header>
+    <!-- SIDEBAR PROJECT COURSES -->
+    <!-- SIDEBAR PROJECT COURSES -->
+    <main>
+      <div class="grid-sidebar">
+        <section class="sidebar">
+          <!-- ////////////////////////////////////////////////////// -->
+          <div class="sidebar-top">
+            <img
+              class="img-profile img-profile--sidebar"
+              src="/img_travis_field/Linkden_pic.png"
+              alt="Self Potrait from Linkden"
+            />
+            <span class="sidebar-title">Project List</span>
+            <ion-icon
+              class="sidebar-expand"
+              name="expand-outline"
+              id="btnshrink"
+            ></ion-icon>
+          </div>
+
+          <!-- Project 01  -->
+          <div class="prj-sidebar work-top-seperator">
+            <p>
+              <a class="jumplink" href="#prj2">Website Portfolio Design</a>
+            </p>
+          </div>
+          <div class="prj-sub">
+            <p class="prj-side-head2">Project Dates</p>
+            <span class="flex-date-prj">
+              <p class="prj-txt">2024-02</p>
+              <p class="prj-arrow">&#8594;</p>
+              <p class="prj-txt">2024-03</p>
+            </span>
+            <p class="prj-side-head2 space">Technical Requirements</p>
+            <span class="flex-date-prj">
+              <button class="btn-coding">CSS</button>
+              <button class="btn-coding">HTML</button>
+              <button class="btn-coding">JS</button>
+
+              <button class="btn-manager">PM</button>
+              <button class="btn-tech-write">Tech-Docs</button>
+              <button class="btn-design">UI/UX Design</button>
+            </span>
+            <div class="work-seperator"></div>
+          </div>
+          <!-- Project 01 END  -->
+
+          <!-- Project 02  -->
+          <div class="prj-sidebar work-top-seperator">
+            <p>
+              <a class="jumplink" href="#prj1">Future project place holder</a>
+            </p>
+          </div>
+          <div class="work-sub">
+            <p class="prj-side-head2">Project Dates</p>
+            <span class="flex-date-prj">
+              <p class="prj-txt">1900-01</p>
+              <p class="prj-arrow">&#8594;</p>
+              <p class="prj-txt">1900-01</p>
+            </span>
+            <p class="prj-side-head2 space">Technical Requirements</p>
+            <span class="flex-date-prj">
+              <p>tbd</p>
+              <!-- <button class="btn-coding">Bootstrap5</button>
+              <button class="btn-carto">Carto</button>
+              <button class="btn-data">Data Analytics</button>
+              <button class="btn-esri">Esri</button>
+              <button class="btn-etl">ETL</button>
+              <button class="btn-coding">JavaScript</button>
+              <button class="btn-ml">ML/AI</button>
+              <button class="btn-coding">NodeJS</button>
+              <button class="btn-manager">PM</button>
+              <button class="btn-coding">Python</button>
+              <button class="btn-qgis">QGIS</button>
+              <button class="btn-coding">R</button>
+              <button class="btn-coding">SASS</button>
+              <button class="btn-coding">SQL</button>
+              <button class="btn-tech-write">Tech-Docs</button>
+              <button class="btn-design">UI/UX Design</button> -->
+            </span>
+            <div class="work-seperator"></div>
+          </div>
+          <!-- Project 02 END  -->
+        </section>
+        <section>
+          <!-- ABOUT -->
+          <div class="ed-header">
+            <h1 class="section-header">Projects</h1>
+          </div>
+          <div class="prj-container">
+            <div class="prj-2">
+              <h3 id="prj2" class="">
+                Designing a GIS portfolio to showcase project work
+              </h3>
+              <div class="prj-grid-r">
+                <div class="grid-space">
+                  <h4 class="prj-sub-head-sep">Idea</h4>
+                  <p class="prj-p">
+                    When I graduated from NC State University, I had two GIS
+                    portfolios from GIS520 and the cumulative degree program
+                    GIS660. Those portfolio sites provided access to story maps
+                    and other web apps built during grad school. Showcasing your
+                    work is an excellent way to market yourself, and it has
+                    become a requirement for many GIS jobs. The previous
+                    portfolios helped me land my job at Esri, and while there, I
+                    shut it down when it was time to renew. Returning to the job
+                    market, I needed a new portfolio, and instead of a standard
+                    drag-and-drop Wix page, I wanted to code it from the ground
+                    up to improve my front-end coding skills.
+                  </p>
+                  <h4 class="prj-sub-head-sep">Research</h4>
+                  <p class="prj-p">
+                    My previous experience in web page design was minimal. My
+                    previous portfolio was built using WordPress and a paid
+                    version of Elementor Pro. While at Esri, I built various
+                    cards, headers, and footers with Bootstrap for Hub Sites. In
+                    dashboards, I would build HTML tables—all of it on the fly,
+                    without really having a grasp of the code. I purchased UDEMY
+                    courses to learn HTML, CSS, Bootstrap5, and Javascript,
+                    which serve as the foundation of my code. I dipped my toes
+                    in NodeJS and SASS but did not implement them here. I had
+                    hoped to study Angular and React, but the initial studies
+                    took longer than expected.
+                  </p>
+                </div>
+                <div class="grid-space prj-img-grid">
+                  <img
+                    class="prj-img"
+                    src="img_unsplash/ben-kolde-bs2Ba7t69mM-unsplash.jpg"
+                    alt=""
+                  />
+                </div>
+              </div>
+
+              <div class="prj-grid-l">
+                <div class="grid-space prj-img-grid">
+                  <img class="prj-img" src="img_projects/home2.png" alt="" />
+                </div>
+                <div>
+                  <h4 class="prj-sub-head-sep">Design</h4>
+                  <p class="prj-p">
+                    During the research, multiple concept sketches formed the
+                    basis of what I wanted to do and continued to change over
+                    time. The overall vision was an about-me page, followed by a
+                    series of sidebar pages covering education, employment,
+                    projects, and a blog. Pages for employment and blogs are not
+                    required, but I made them more for younger people who might
+                    come across my portfolio to serve as a road map or for
+                    transitioning veterans.
+                  </p>
+                  <h4 class="prj-sub-head-sep">Methodology</h4>
+                  <p class="prj-p">
+                    The first code set began as Bootstrap and SASS. However, I
+                    was not ready to move on from HTML-CSS development, and I
+                    constantly forget to reinitiate the NodeJS SASS watch when
+                    opening up VScode. So, I completely dropped Bootstrap during
+                    version-01 to grasp the Grid and the Flexbox schema. For
+                    every HTML page, a corresponding CSS page helps reduce the
+                    amount of code per page. There are only a few code comments
+                    here, which I would never pass on to another person as I
+                    would need to refine the syntax (a lot), but version-01 is a
+                    get-out-the-door website. 
+                    The webpage  was designed on a 17" laptop, is not 508 complaint, nor is it mobile ready. You may need to adjust your screen size.
+                    <p>&nbsp;</p>
+                    <p class="prj-p">
+
+                      Version-02 will use Bootstrap as the core along with SASS and NodeJS, or I
+                      may skip "GO" and head directly to R-Shiny. Both Bootstrap
+                      and R-shiny have pros and cons. Bootstrap easily embeds a
+                      lot of the CSS and Java functionality directly into the HTML
+                      code, thus reducing time requirements. With R-shiny, you can
+                      incorporate interactive tables, maps, and charts.
+                    </p>
+                  </>
+                </div>
+              </div>
+              <div class="prj-grid-across">
+                <div class="grid-space">
+                  <h4 class="prj-sub-head-sep">Results</h4>
+                  <p class="prj-p">
+                    Multiple attempts at writing Java for listening events came
+                    up short when incorporating this time. For instance, you'll
+                    see that my expansion tab in the sidebar doesn't work right,
+                    or the images don't expand beyond their container. Many of
+                    these easy tasks are already baked into Bootstrap so I did
+                    not want to spend a great deal of time coming up with the
+                    solution. Overall the project was successful; meeting my
+                    goals of improving UI/UX design, programming, and displaying
+                    a portfolio for future employers.
+                  </p>
+                  <div class="flex-inline-prj">
+                    <img
+                      class="prj-img3"
+                      src="img_projects/sidebar_ed.png"
+                      alt=""
+                    />
+                    <img
+                      class="prj-img2"
+                      src="img_projects/testomial.png"
+                      alt=""
+                    />
+                    <img class="prj-img3" src="img_projects/home.png" alt="" />
+                  </div>
+
+                  <h4 class="prj-sub-head-sep">Conclusion</h4>
+                  <p class="prj-p">
+                    Coding a website from the ground up is a specialty, just
+                    like a GIS analyst. People have four-year degrees to build
+                    web pages, so I would not recommend it to the average GIS
+                    person. I have a newfound appreciation for Esri Hub and Esri
+                    Experience Builder. Those Esri applications are so easy to
+                    use, and I 100% endorse any GIS student building a portfolio
+                    using either. The best thing about building in Esri is the
+                    capability of copying the back end through
+                    <a
+                      class="link-out"
+                      href="https://ago-assistant.esri.com"
+                      target="_blank"
+                      >AGO Assistant</a
+                    >
+                    so you can port the code into your next GIS position. My
+                    last sales pitch for using Esri Experience Builder is it's
+                    ability to design for mobile applications by adjusting the
+                    screen size and then moving your widgets to best fit.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="prj-seperator bottom-space"></div>
+
+          <!-- FIRST PROJECT -->
+          <!-- 
+          <div class="prj-container prj-sub-head-sep2">
+            <div class="prj-2">
+              <h3 id="prj1" class="">Future Project Place Holder</h3>
+              <div class="prj-grid-r">
+                <div class="grid-space">
+                  <h4 class="prj-sub-head-sep">Idea</h4>
+                  <p class="prj-p">
+                    This is filler text for my future projects. The first one
+                    will discuss making a website from scratch. Lorem ipsum
+                    dolor sit amet consectetur adipisicing elit. Praesentium
+                    molestias quaerat sunt velit nemo magni, ducimus dolores
+                    distinctio? Soluta quisquam esse, corporis iste animi nulla
+                    reprehenderit molestias dolorum, officia neque error omnis
+                    veritatis officiis non laboriosam totam assumenda fuga?
+                    Nostrum, consectetur. Molestias veniam accusantium enim
+                    dolorem! Veniam, odio quae. Dolorum.
+                  </p>
+                  <h4 class="prj-sub-head-sep">Design</h4>
+                  <p class="prj-p">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Praesentium molestias quaerat sunt velit nemo magni, ducimus
+                    dolores distinctio? Soluta quisquam esse, corporis iste
+                    animi nulla reprehenderit molestias dolorum, officia neque
+                    error omnis veritatis officiis non laboriosam totam
+                    assumenda fuga? Nostrum, consectetur. Molestias veniam
+                    accusantium enim dolorem! Veniam, odio quae. Dolorum.
+                  </p>
+                </div>
+                <div class="grid-space prj-img-grid">
+                  <img
+                    class="prj-img"
+                    src="img_unsplash/ben-kolde-bs2Ba7t69mM-unsplash.jpg"
+                    alt=""
+                  />
+                </div>
+              </div>
+
+              <div class="prj-grid-l">
+                <div class="grid-space prj-img-grid">
+                  <img
+                    class="prj-img"
+                    src="img_unsplash/ben-kolde-bs2Ba7t69mM-unsplash.jpg"
+                    alt=""
+                  />
+                </div>
+                <div>
+                  <h4 class="prj-sub-head-sep">Research</h4>
+
+                  <p class="prj-p">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Praesentium molestias quaerat sunt velit nemo magni, ducimus
+                    dolores distinctio? Soluta quisquam esse, corporis iste
+                    animi nulla reprehenderit molestias dolorum, officia neque
+                    error omnis veritatis officiis non laboriosam totam
+                    assumenda fuga? Nostrum, consectetur. Molestias veniam
+                    accusantium enim dolorem! Veniam, odio quae. Dolorum.
+                  </p>
+                  <h4 class="prj-sub-head-sep">Methodology</h4>
+                  <p class="prj-p">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Praesentium molestias quaerat sunt velit nemo magni, ducimus
+                    dolores distinctio? Soluta quisquam esse, corporis iste
+                    animi nulla reprehenderit molestias dolorum, officia neque
+                    error omnis veritatis officiis non laboriosam totam
+                    assumenda fuga? Nostrum, consectetur. Molestias veniam
+                    accusantium enim dolorem! Veniam, odio quae. Dolorum.
+                  </p>
+                </div>
+              </div>
+              <div class="prj-grid-across">
+                <div class="grid-space">
+                  <h4 class="prj-sub-head-sep">Results</h4>
+
+                  <p class="prj-p">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Praesentium molestias quaerat sunt velit nemo magni, ducimus
+                    dolores distinctio? Soluta quisquam esse, corporis iste
+                    animi nulla reprehenderit molestias dolorum, officia neque
+                    error omnis veritatis officiis non laboriosam totam
+                    assumenda fuga? Nostrum, consectetur. Molestias veniam
+                    accusantium enim dolorem! Veniam, odio quae. Dolorum.
+                  </p>
+                  <div class="flex-inline-prj">
+                    <img
+                      class="prj-img2"
+                      src="img_unsplash/ben-kolde-bs2Ba7t69mM-unsplash.jpg"
+                      alt=""
+                    />
+                    <img
+                      class="prj-img2"
+                      src="img_unsplash/ben-kolde-bs2Ba7t69mM-unsplash.jpg"
+                      alt=""
+                    />
+                    <img
+                      class="prj-img2"
+                      src="img_unsplash/ben-kolde-bs2Ba7t69mM-unsplash.jpg"
+                      alt=""
+                    />
+                  </div>
+
+                  <h4 class="prj-sub-head-sep">Conclusion</h4>
+                  <p class="prj-p">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Praesentium molestias quaerat sunt velit nemo magni, ducimus
+                    dolores distinctio? Soluta quisquam esse, corporis iste
+                    animi nulla reprehenderit molestias dolorum, officia neque
+                    error omnis veritatis officiis non laboriosam totam
+                    assumenda fuga? Nostrum, consectetur. Molestias veniam
+                    accusantium enim dolorem! Veniam, odio quae. Dolorum.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div> -->
+        </section>
+      </div>
+    </main>
+
+    <!-- FOOTER FOOTER FOOTER -->
+    <footer class="footer">
+      <div class="container grid grid--footer">
+        <div class="foot-col-1">
+          <h5 class="foot-title">About Portfolio</h5>
+          <p class="foot-p">
+            This website was built with pure HTML5, CSS, and Javascript.
+            Previous versions included Bootstrap5, nodeJS, and SASS. Future
+            upgraqdes will incorporate Leaflet and ChartJS. My portfolio was a
+            culmination of developer courses taken at Udemy.
+          </p>
+          <p class="copyright foot-p">
+            Copyright &copy; <span class="year">2024</span> by Travis Newton All
+            rights reserved.
+          </p>
+        </div>
+        <div class="foot-col-2">
+          <h5 class="foot-title">Links</h5>
+          <ul class="link-off">
+            <li>
+              GitHub:
+              <a class="link-color" href="https://github.com/tnewtonGIS"
+                ><strong>GIS GUY</strong> - <i>tnewtonGIS</i></a
+              >
+            </li>
+            <li>
+              Contact:
+              <a
+                class="link-color"
+                href="mailto:tnewton.gis@proton.me"
+                target="_blank"
+                ><strong>T.Newton</strong> <i>-Email</i></a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="foot-col-3">
+          <h5 class="foot-title">Site Visits</h5>
+          <div class="counter-flex">
+            <h6 class="count-title">Unique</h6>
+            <p class="count-number">5</p>
+          </div>
+          <div class="counter-flex">
+            <h6 class="count-title">Cumulative</h6>
+            <p class="count-number">10</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- JAVASCRIPT LINKS -->
+    <script src="js/script.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!-- <script src="js/darkmodetoggle.js"></script> -->
+    <script src="js/lightbox-plus-jquery.min.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule=""
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"
+    ></script>
+    <script
+      defer
+      src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"
+    ></script>
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
